@@ -1,12 +1,5 @@
-# hello
+# Hagiについて
 
-aboutme
-
-```c
-#include <stdio.h>
-
-int main(int argc, char const *argv[]) {
-  printf("Hello world.\n");
-  return 0;
-}
-```
+2018年現在，大学3年生．へなちょこプログラマ．
+ウェブサイトの作成やiPhoneアプリの作成をしてきました．
+データビジュアライゼーションに興味があります．
