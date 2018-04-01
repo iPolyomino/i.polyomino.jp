@@ -5,8 +5,9 @@
     <v-content>
     <v-flex xs12 sm8 offset-sm2>
       Hello World.
+      <code>console.log("hello world")</code>
+      <footer-component/>
     </v-flex>
-    <footer-component/>
     </v-content>
   </v-flex>
 </v-layout>

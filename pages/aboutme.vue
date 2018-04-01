@@ -4,13 +4,13 @@
     <navigation-component/>
     <v-content>
     <v-flex xs12 sm8 offset-sm2>
-      <v-card v-for="info in aboutme" :key="info.key">
+      <v-card class="my-3" v-for="info in aboutme" :key="info.key">
         <v-card-title primary-title>
           <div v-html="info"></div>
         </v-card-title>
       </v-card>
+      <footer-component/>
     </v-flex>
-    <footer-component/>
     </v-content>
   </v-flex>
 </v-layout>
