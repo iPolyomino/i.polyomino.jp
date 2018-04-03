@@ -1,5 +1,7 @@
 <template>
 <v-card color="light-blue lighten-5" class="my-3">
+  <v-card-media contain v-if="media != null" :src="getImgUrl(media)" height="50vh">
+  </v-card-media>
   <v-container fluid grid-list-lg>
     <v-layout row wrap>
       <v-flex xs12>
@@ -16,6 +18,11 @@
 
 <script>
 export default {
-  props: ['title', 'sentence']
+  props: ['media', 'title', 'sentence'],
+  methods: {
+    getImgUrl(img) {
+      return require('@/static/image/' + img)
+    }
+  }
 }
 </script>
