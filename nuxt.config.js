@@ -14,15 +14,14 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
-  plugins: ['~/plugins/vuetify.js'],
   css: [
-    '~/assets/style/app.styl',
     '~/assets/style/main.css'
   ],
   /*
   ** Customize the progress bar color
   */
   modules: [
+    '@nuxtjs/vuetify',
     '@nuxtjs/markdownit'
   ],
   loading: { color: '#3B8070' },

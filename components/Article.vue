@@ -1,40 +1,21 @@
 <template>
-<article>
-    <div class='title'>
-        {{title}}
-    </div>
-    <div class='paragraph'>
-        <!-- <p v-for='line in sentence'>
-            {{line.paragraph}}
-            <ul class='listContent'>
-                <li v-for='lineItem in line.linkArray'>
-                    <a :href='lineItem.url'>
-                            {{lineItem.name}}
-                        </a>
-                </li>
-            </ul>
-        </p> -->
-    </div>
-</article>
+<v-card color="light-blue lighten-5" class="my-3">
+  <v-container fluid grid-list-lg>
+    <v-layout row wrap>
+      <v-flex xs12>
+        <div>
+          <div class="headline">{{title}}</div>
+          <div>{{sentence}}</div>
+          <v-btn flat v-for="link in links" :key="link.key" color="orange" :href="link.url">{{link.name}}</v-btn>
+        </div>
+      </v-flex>
+    </v-layout>
+  </v-container>
+</v-card>
 </template>
 
-
 <script>
-import Vue from 'vue';
-
 export default {
-    props: ['title', 'sentence'],
-};
+  props: ['title', 'sentence', 'links']
+}
 </script>
-
-<style>
-.title {
-    color: #000;
-    font-size: 3rem;
-}
-@media screen and (min-width: 320px) and (max-width: 899px) {
-    .title {
-        font-size: 1.5rem;
-    }
-}
-</style>

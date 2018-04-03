@@ -10,10 +10,9 @@
           Hello World.
           <code>console.log("hello world")</code>
         </v-card>
-        <v-card color="light-blue lighten-5" class="my-3">
-          Hello World.
-          <code>console.log("hello world")</code>
-        </v-card>
+        <div v-for="article in articles" :key="article.key">
+          <article-component :title="article.title" :sentence="article.sentence" :links="article.links" />
+        </div>
         <footer-component/>
       </v-flex>
     </v-content>
@@ -29,13 +28,48 @@ import ArticleComponent from '~/components/Article.vue'
 import FooterComponent from '~/components/Footer.vue'
 
 export default {
-  mounted() {
-
+  data() {
+    return {
+      articles: [{
+          title: 'Hagiについて',
+          sentence: '2018年現在，大学3年生．へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．データビジュアライゼーションに興味があります．',
+          links: [{
+              'name': 'Twitter',
+              'url': 'https://twitter.com/iPolyomino'
+            },
+            {
+              'name': 'Mastodon ',
+              'url': 'https://mstdn.jp/@iPolyomino'
+            },
+            {
+              'name': 'GitHub',
+              'url': 'https://github.com/iPolyomino'
+            },
+            {
+              'name': 'Blog',
+              'url': 'http://polyomino.hatenablog.jp/'
+            }
+          ]
+        },
+        {
+          title: 'ポリオミノ(Polyomino)',
+          sentence: '複数の正方形を辺でつなげた多角形．また，それを長方形など指定の形に隙間なく並べるパズル．'
+        },
+        {
+          title: 'ほしい物リスト',
+          links: [{
+            name: '買って♥',
+            url: 'http://amzn.asia/0XqBHa7'
+          }]
+        }
+      ]
+    }
   },
   components: {
-    PolyominoComponent,
     BackgroundComponent,
     NavigationComponent,
+    PolyominoComponent,
+    ArticleComponent,
     FooterComponent
   }
 }
