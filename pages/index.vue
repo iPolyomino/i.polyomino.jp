@@ -11,7 +11,7 @@
           <code>console.log("hello world")</code>
         </v-card>
         <div v-for="article in articles" :key="article.key">
-          <article-component :title="article.title" :sentence="article.sentence" :links="article.links" />
+          <article-component :title="article.title" :sentence="article.sentence" />
         </div>
         <footer-component/>
       </v-flex>
@@ -32,35 +32,41 @@ export default {
     return {
       articles: [{
           title: 'Hagiについて',
-          sentence: '2018年現在，大学3年生．へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．データビジュアライゼーションに興味があります．',
-          links: [{
-              'name': 'Twitter',
-              'url': 'https://twitter.com/iPolyomino'
-            },
-            {
-              'name': 'Mastodon ',
-              'url': 'https://mstdn.jp/@iPolyomino'
-            },
-            {
-              'name': 'GitHub',
-              'url': 'https://github.com/iPolyomino'
-            },
-            {
-              'name': 'Blog',
-              'url': 'http://polyomino.hatenablog.jp/'
-            }
-          ]
+          sentence: {
+            text: '2018年現在，大学3年生．へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．データビジュアライゼーションに興味があります．',
+            links: [{
+                'name': 'Twitter',
+                'url': 'https://twitter.com/iPolyomino'
+              },
+              {
+                'name': 'Mastodon ',
+                'url': 'https://mstdn.jp/@iPolyomino'
+              },
+              {
+                'name': 'GitHub',
+                'url': 'https://github.com/iPolyomino'
+              },
+              {
+                'name': 'Blog',
+                'url': 'http://polyomino.hatenablog.jp/'
+              }
+            ]
+          }
         },
         {
           title: 'ポリオミノ(Polyomino)',
-          sentence: '複数の正方形を辺でつなげた多角形．また，それを長方形など指定の形に隙間なく並べるパズル．'
+          sentence: {
+            text: '複数の正方形を辺でつなげた多角形．また，それを長方形など指定の形に隙間なく並べるパズル．'
+          }
         },
         {
           title: 'ほしい物リスト',
-          links: [{
-            name: '買って♥',
-            url: 'http://amzn.asia/0XqBHa7'
-          }]
+          sentence: {
+            links: [{
+              name: '買って♥',
+              url: 'http://amzn.asia/0XqBHa7'
+            }]
+          }
         }
       ]
     }

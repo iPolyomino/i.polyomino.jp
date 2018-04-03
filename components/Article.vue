@@ -5,8 +5,8 @@
       <v-flex xs12>
         <div>
           <div class="headline">{{title}}</div>
-          <div>{{sentence}}</div>
-          <v-btn flat v-for="link in links" :key="link.key" color="orange" :href="link.url">{{link.name}}</v-btn>
+          <div>{{sentence.text}}</div>
+          <v-btn flat v-for="link in sentence.links" :key="link.key" color="light-blue" :href="link.url">{{link.name}}</v-btn>
         </div>
       </v-flex>
     </v-layout>
@@ -16,6 +16,6 @@
 
 <script>
 export default {
-  props: ['title', 'sentence', 'links']
+  props: ['title', 'sentence']
 }
 </script>
