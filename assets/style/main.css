@@ -1,3 +1,9 @@
 .main-contents {
   position: relative;
 }
+
+audio, canvas, img, svg, video {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
