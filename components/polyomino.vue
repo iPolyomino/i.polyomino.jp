@@ -26,42 +26,64 @@
 
 <style>
 @keyframes css_anime {
-    from {
-        stroke-dashoffset: 1000;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
+
 @-webkit-keyframes css_anime {
-    from {
-        stroke-dashoffset: 1000;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
+
 @keyframes reverse_css_anime {
-    from {
-        stroke-dashoffset: -1000;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
+  from {
+    stroke-dashoffset: -1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
+
 @-webkit-keyframes reverse_css_anime {
-    from {
-        stroke-dashoffset: 150%;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
+  from {
+    stroke-dashoffset: 150%;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 svg#nameLayer {
-    max-width: 800px;
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
+  max-width: 800px;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+
+/*IE CSS Hack*/
+
+@media all and (-ms-high-contrast: none) {
+  svg#nameLayer {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    height: 50vh;
+  }
+}
+
+/*Edge CSS Hack*/
+
+@supports (-ms-ime-align:auto) {
+  svg#nameLayer {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+  }
 }
 
 g {
