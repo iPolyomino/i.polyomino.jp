@@ -24,7 +24,7 @@ module.exports = {
     '@nuxtjs/vuetify',
     '@nuxtjs/markdownit'
   ],
-  loading: { color: '#3B8070' },
+  loading: { color: '#03A9F4' },
   /*
   ** Build configuration
   */
