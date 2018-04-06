@@ -55,7 +55,7 @@ export default {
         sentence: {
           text: 'ツイキャスで定型文を送信するiPhoneアプリです．アスキーアート(AA)を投稿することを想定して作りました．',
           links: [{
-            'name': 'App Store',
+            'name': 'CasAA',
             'url': 'https://itunes.apple.com/jp/app/casaa/id1289298193'
           }]
         }
@@ -95,7 +95,7 @@ export default {
         sentence: {
           text: 'Canada Wide Virtual Science Fairへ提出した作品です．チョコレートゲームとヌメロンの研究を行いました．',
           links: [{
-            'name': 'Canada Wide Virtual Science Fair',
+            'name': 'Science Fair',
             'url': 'http://www.virtualsciencefair.org/2014/inou14m'
           }]
         }
