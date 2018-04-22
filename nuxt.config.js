@@ -22,9 +22,13 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/vuetify',
-    '@nuxtjs/markdownit'
+    '@nuxtjs/markdownit',
+    '@nuxtjs/google-analytics'
   ],
   loading: { color: '#03A9F4' },
+  'google-analytics': {
+    id: 'UA-81299115-1'
+  },
   /*
   ** Build configuration
   */
