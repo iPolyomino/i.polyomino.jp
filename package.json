@@ -14,6 +14,7 @@
     "test": "ava --serial --verbose"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/markdownit": "^1.2.0",
     "nuxt": "^1.0.0",
     "vue": "^2.5.16"
