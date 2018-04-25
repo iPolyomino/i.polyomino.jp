@@ -20,10 +20,11 @@ test.before('Init Nuxt.js', async t => {
 
 test('Route /aboutme exits and render HTML', async t => {
   let context = {}
-  const {html} = await nuxt.renderRoute('/aboutme', context)
+  const {html, error} = await nuxt.renderRoute('/aboutme', context)
   t.true(html.includes('<h1>Hagiについて</h1>'))
   t.true(html.includes('<h1>やってきたこと</h1>'))
   t.true(html.includes('© 2018 Hagi'))
+  t.is(error, null)
 })
 
 test('Exists link', async t => {
