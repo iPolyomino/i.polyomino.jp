@@ -5,13 +5,14 @@
 [インターンシップ参加ブログ](https://polyomino.hatenablog.jp/entry/2018/02/25/003816)
 
 - CIEC会誌編集委員会『CIEC会誌 コンピュータ＆エデュケーション　Vol.43』(2017, CIEC) にて，"順列組み合わせの単元におけるアクティブ・ラーニングを促進するiOSアプリケーション「ナイトツアー for Education」"  
+[詳細](https://www.ciec.or.jp/media/004/201804/Vol43review.pdf)
 
 - 高校でのプログラミング講師補助を行いました．言語は，Pythonを用いました．  
 [詳細](https://github.com/iPolyomino/python_lecture)
 
 - 国際学生対抗バーチャルリアリティコンテストにおいて選考を通過し，展示を行いました．  
 （タイトル：光輝くかぐやの世界，チーム名：バンブー）  
-  [詳細](http://ivrc.net/archive/year/%E7%AC%AC25%E5%9B%9E-2017/)
+[詳細](http://ivrc.net/archive/year/%E7%AC%AC25%E5%9B%9E-2017/)
 
 - モイ株式会社 で行われたインターンシップへ参加しました．  
 [インターンシップ参加ブログ](https://polyomino.hatenablog.jp/entry/2018/01/27/011144)

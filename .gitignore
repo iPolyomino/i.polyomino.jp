@@ -71,3 +71,6 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+# @nuxtjs/pwa
+sw.*
