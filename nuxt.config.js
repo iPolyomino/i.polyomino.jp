@@ -23,13 +23,9 @@ module.exports = {
   modules: [
     '@nuxtjs/vuetify',
     '@nuxtjs/markdownit',
-    '@nuxtjs/google-analytics',
     '@nuxtjs/pwa'
   ],
   loading: { color: '#03A9F4' },
-  'google-analytics': {
-    id: 'UA-81299115-1'
-  },
   manifest: {
     name: 'Hagi',
     short_name:
