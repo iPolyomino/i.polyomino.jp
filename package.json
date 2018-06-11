@@ -14,7 +14,6 @@
     "test": "ava --serial --verbose"
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/markdownit": "^1.2.0",
     "@nuxtjs/pwa": "^2.0.8",
     "nuxt": "^1.0.0",
