@@ -54,10 +54,10 @@
 
 @-webkit-keyframes reverse_css_anime {
   from {
-    stroke-dashoffset: 150%;
+    stroke-dashoffset: 1000;
   }
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 2000;
   }
 }
 
@@ -79,7 +79,7 @@ svg#nameLayer {
 
 /*Edge CSS Hack*/
 
-@supports (-ms-ime-align:auto) {
+@supports (-ms-ime-align: auto) {
   svg#nameLayer {
     stroke-dasharray: 0;
     stroke-dashoffset: 0;
@@ -92,7 +92,7 @@ g {
   stroke-miterlimit: 10;
 }
 
-g>.st0 {
+g > .st0 {
   animation: css_anime 3s linear normal;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
@@ -101,8 +101,8 @@ g>.st0 {
   -webkit-animation-iteration-count: 1;
 }
 
-g>.st1 {
-  animation: reverse_css_anime 3s linear normal;
+g > .st1 {
+  animation: reverse_css_anime -3s linear normal;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   -webkit-animation: reverse_css_anime 3s linear normal;
