@@ -17,36 +17,38 @@
 </template>
 
 <script>
-import BackgroundComponent from '~/components/Background.vue'
-import NavigationComponent from '~/components/Navigation.vue'
-import WordComponent from '~/components/Word.vue'
+import BackgroundComponent from "~/components/Background.vue";
+import NavigationComponent from "~/components/Navigation.vue";
+import WordComponent from "~/components/Word.vue";
 
 export default {
-  props: ['error'],
+  props: ["error"],
   data() {
     return {
-      articles: [{
-        title: '404',
-        sentence: {
-          text: 'ページが見つかりませんでした．',
-          links: [
-            {
-              'name': 'Index',
-              'url': '/'
-            },
-            {
-              'name': 'About Me',
-              'url': '/aboutme'
-            }
-          ]
+      articles: [
+        {
+          title: "404",
+          sentence: {
+            text: "ページが見つかりませんでした．",
+            links: [
+              {
+                name: "Index",
+                url: "/"
+              },
+              {
+                name: "About Me",
+                url: "/aboutme"
+              }
+            ]
+          }
         }
-      }]
-    }
+      ]
+    };
   },
   components: {
     BackgroundComponent,
     NavigationComponent,
     WordComponent
   }
-}
+};
 </script>

@@ -23,26 +23,27 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        links: [
-          {
-            title: 'Home',
-            link: '/'
-          }, {
-            title: 'About',
-            link: '/aboutme'
-          }
-        ],
-        drawer: false
-      }
-    }
+export default {
+  data() {
+    return {
+      links: [
+        {
+          title: "Home",
+          link: "/"
+        },
+        {
+          title: "About",
+          link: "/aboutme"
+        }
+      ],
+      drawer: false
+    };
   }
+};
 </script>
 
 <style>
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 </style>

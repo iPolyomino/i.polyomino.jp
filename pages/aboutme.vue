@@ -18,12 +18,12 @@
 </template>
 
 <script>
-import BackgroundComponent from '~/components/Background.vue'
-import NavigationComponent from '~/components/Navigation.vue'
-import FooterComponent from '~/components/Footer.vue'
-import aboutme from '~/static/aboutme.md'
-import favoriteLanguage from '~/static/favoriteLanguage.md'
-import history from '~/static/history.md'
+import BackgroundComponent from "~/components/Background.vue";
+import NavigationComponent from "~/components/Navigation.vue";
+import FooterComponent from "~/components/Footer.vue";
+import aboutme from "~/static/aboutme.md";
+import favoriteLanguage from "~/static/favoriteLanguage.md";
+import history from "~/static/history.md";
 
 export default {
   components: {
@@ -33,10 +33,10 @@ export default {
   },
   computed: {
     aboutme() {
-      return [aboutme, favoriteLanguage, history]
+      return [aboutme, favoriteLanguage, history];
     }
   }
-}
+};
 </script>
 
 <style>

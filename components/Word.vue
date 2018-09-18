@@ -17,11 +17,11 @@
 
 <script>
 export default {
-  props: ['media', 'title', 'sentence'],
+  props: ["media", "title", "sentence"],
   methods: {
     getImgUrl(img) {
-      return require('@/static/image/' + img)
+      return require("@/static/image/" + img);
     }
   }
-}
+};
 </script>
