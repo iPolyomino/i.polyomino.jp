@@ -1,3 +1,5 @@
+const axios = require("axios");
+const { sourceFileArray } = require("./posts/json/summary.json");
 module.exports = {
   /*
   ** Headers of the page
@@ -56,6 +58,20 @@ module.exports = {
           exclude: /(node_modules)/
         });
       }
+    }
+  },
+  generate: {
+    routes: () => {
+      return sourceFileArray.map(path => {
+        const pageTag = path.match(/\d{4}-\d{2}-\d{2}-\d{4}/g);
+        if (pageTag.length != 1) {
+          return;
+        }
+        return {
+          route: "/blog/" + pageTag[0],
+          payload: path
+        };
+      });
     }
   }
 };

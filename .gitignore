@@ -74,3 +74,6 @@ dist
 
 # @nuxtjs/pwa
 sw.*
+
+# blog congents
+posts/json/
