@@ -5,9 +5,12 @@
     <navigation-component/>
     <v-content class="main-contents">
       <v-flex xs12 sm8 offset-sm2>
-        <v-card color="light-blue lighten-5" class="mx-2 my-2" v-for="info in aboutme" :key="info.key">
+        <v-card color="light-blue lighten-5" class="mx-2 my-2">
           <v-container fluid grid-list-lg>
-            <div v-html="info"></div>
+            <h1>{{title}}</h1>
+            <p class="mb-5 text-xs-right">{{date}}</p>
+            <div v-html="bodyHtml"></div>
+            <v-btn flat large color="light-blue" href="/blog">記事一覧ページヘ</v-btn>
           </v-container>
         </v-card>
         <footer-component/>
@@ -21,28 +24,21 @@
 import BackgroundComponent from "~/components/Background.vue";
 import NavigationComponent from "~/components/Navigation.vue";
 import FooterComponent from "~/components/Footer.vue";
-import aboutme from "~/static/aboutme.md";
-import favoriteLanguage from "~/static/favoriteLanguage.md";
-import history from "~/static/history.md";
+import { sourceFileArray } from "~/posts/json/summary.json";
 
 export default {
+  validate({ params }) {
+    return sourceFileArray.includes(`posts/${params.slug}.md`);
+  },
+  asyncData({ params }) {
+    return Object.assign({}, require(`~/posts/json/${params.slug}.json`), {
+      params
+    });
+  },
   components: {
     BackgroundComponent,
     NavigationComponent,
     FooterComponent
-  },
-  computed: {
-    aboutme: () => {
-      return [aboutme, favoriteLanguage, history];
-    }
   }
 };
 </script>
-
-<style>
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-</style>

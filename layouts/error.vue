@@ -38,6 +38,10 @@ export default {
               {
                 name: "About Me",
                 url: "/aboutme"
+              },
+              {
+                name: "Blog",
+                url: "/blog"
               }
             ]
           }
