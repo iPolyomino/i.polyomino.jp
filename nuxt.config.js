@@ -1,5 +1,5 @@
-const axios = require("axios");
 const { sourceFileArray } = require("./posts/json/summary.json");
+
 module.exports = {
   /*
   ** Headers of the page
