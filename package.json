@@ -13,7 +13,7 @@
     "precommit": "npm run lint",
     "test": "ava --serial --verbose",
     "generate-json": "processmd posts/**/*.md --outputDir posts/json",
-    "summary": "mkdir -p posts/json && processmd posts/**/*.md --stdout --preview 140 --outputDir posts/json > posts/json/summary.json"
+    "summary": "mkdir -p posts/json && processmd posts/**/*.md --stdout --outputDir posts/json > posts/json/summary.json"
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.0",
