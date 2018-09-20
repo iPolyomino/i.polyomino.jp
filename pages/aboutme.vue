@@ -32,7 +32,7 @@ export default {
     FooterComponent
   },
   computed: {
-    aboutme() {
+    aboutme: () => {
       return [aboutme, favoriteLanguage, history];
     }
   }
