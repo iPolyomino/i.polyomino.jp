@@ -8,8 +8,9 @@
         <v-card color="light-blue lighten-5" class="mx-2 my-2">
           <v-container fluid grid-list-lg>
             <h1>{{title}}</h1>
-            <p class="pb-3 text-xs-right">{{date}}</p>
+            <p class="mb-5 text-xs-right">{{date}}</p>
             <div v-html="bodyHtml"></div>
+            <v-btn flat large color="light-blue" href="/blog">記事一覧ページヘ</v-btn>
           </v-container>
         </v-card>
         <footer-component/>
