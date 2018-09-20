@@ -34,10 +34,6 @@ export default {
         {
           title: "About",
           link: "/aboutme"
-        },
-        {
-          title: "Blog",
-          link: "/blog"
         }
       ],
       drawer: false

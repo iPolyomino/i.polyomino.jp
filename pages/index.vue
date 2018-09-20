@@ -5,7 +5,7 @@
     <navigation-component/>
     <v-content class="main-contents">
       <v-flex xs12 sm10 offset-sm1>
-        <hagi-component/>
+        <polyomino-component/>
         <v-layout row wrap>
           <v-flex v-if="article.media==null" xs12 v-for="article in articles" :key="article.key">
             <article-component :title="article.title" :sentence="article.sentence" />
@@ -24,7 +24,7 @@
 <script>
 import BackgroundComponent from "~/components/Background.vue";
 import NavigationComponent from "~/components/Navigation.vue";
-import HagiComponent from "~/components/Hagi.vue";
+import PolyominoComponent from "~/components/polyomino.vue";
 import ArticleComponent from "~/components/Article.vue";
 import FooterComponent from "~/components/Footer.vue";
 
@@ -166,7 +166,7 @@ export default {
   components: {
     BackgroundComponent,
     NavigationComponent,
-    HagiComponent,
+    PolyominoComponent,
     ArticleComponent,
     FooterComponent
   }
