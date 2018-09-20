@@ -8,19 +8,15 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "npm run generate-json && nuxt generate",
+    "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "test": "ava --serial --verbose",
-    "generate-json": "processmd posts/**/*.md --outputDir posts/json",
-    "summary": "mkdir -p posts/json && processmd posts/**/*.md --stdout --outputDir posts/json > posts/json/summary.json"
+    "test": "ava --serial --verbose"
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.0",
     "@nuxtjs/pwa": "^2.0.8",
-    "axios": "^0.18.0",
     "nuxt": "^1.0.0",
-    "processmd": "^4.2.1",
     "vue": "^2.5.16"
   },
   "devDependencies": {

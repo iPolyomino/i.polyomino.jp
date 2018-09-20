@@ -5,11 +5,9 @@
     <navigation-component/>
     <v-content class="main-contents">
       <v-flex xs12 sm8 offset-sm2>
-        <v-card color="light-blue lighten-5" class="mx-2 my-2">
+        <v-card color="light-blue lighten-5" class="mx-2 my-2" v-for="info in article" :key="info.key">
           <v-container fluid grid-list-lg>
-            <h1>{{title}}</h1>
-            <p class="pb-3 text-xs-right">{{date}}</p>
-            <div v-html="bodyHtml"></div>
+            <div v-html="info"></div>
           </v-container>
         </v-card>
         <footer-component/>
@@ -23,21 +21,25 @@
 import BackgroundComponent from "~/components/Background.vue";
 import NavigationComponent from "~/components/Navigation.vue";
 import FooterComponent from "~/components/Footer.vue";
-import { sourceFileArray } from "~/posts/json/summary.json";
 
 export default {
-  validate({ params }) {
-    return sourceFileArray.includes(`posts/${params.slug}.md`);
-  },
-  asyncData({ params }) {
-    return Object.assign({}, require(`~/posts/json/${params.slug}.json`), {
-      params
-    });
-  },
   components: {
     BackgroundComponent,
     NavigationComponent,
     FooterComponent
+  },
+  computed: {
+    article() {
+      return ["blog contents"];
+    }
   }
 };
 </script>
+
+<style>
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
