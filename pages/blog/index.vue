@@ -10,7 +10,7 @@
             <h1>{{article.title}}</h1>
             <p class="text-xs-right">{{article.date}}</p>
             <p>{{article.preview}}</p>
-            <v-btn flat large color="light-blue" :href="getUrl(article.base)">記事ページヘ</v-btn>
+            <v-btn flat color="light-blue" :href="getUrl(article.base)">記事ページヘ</v-btn>
           </v-container>
         </v-card>
         <footer-component/>
