@@ -1,8 +1,51 @@
 <template>
-  <div>
+<v-layout>
+  <v-flex xs12>
+    <background-component/>
+    <navigation-component :links="links" :toggleDrawer="toggleDrawer"/>
+    <drawer-component :links="links" :toggleDrawer="toggleDrawer" :isOpenDrawer="isOpenDrawer"/>
     <nuxt/>
-  </div>
+  </v-flex>
+</v-layout>
 </template>
+
+<script>
+import BackgroundComponent from "~/components/Background.vue";
+import NavigationComponent from "~/components/Navigation.vue";
+import DrawerComponent from "~/components/Drawer.vue";
+
+export default {
+  data() {
+    return {
+      links: [
+        {
+          title: "Home",
+          link: "/"
+        },
+        {
+          title: "About",
+          link: "/aboutme"
+        },
+        {
+          title: "Blog",
+          link: "/blog"
+        }
+      ],
+      isOpenDrawer: false
+    };
+  },
+  components: {
+    BackgroundComponent,
+    NavigationComponent,
+    DrawerComponent
+  },
+  methods: {
+    toggleDrawer() {
+      this.isOpenDrawer = !this.isOpenDrawer;
+    }
+  }
+};
+</script>
 
 <style>
 html {
