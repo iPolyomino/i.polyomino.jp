@@ -9,7 +9,6 @@
         <v-btn flat color="light-blue" href="/blog">記事一覧ページヘ</v-btn>
       </v-container>
     </v-card>
-    <footer-component/>
   </v-flex>
 </v-content>
 </template>
@@ -25,10 +24,6 @@ export default {
     return Object.assign({}, require(`~/posts/json/${params.slug}.json`), {
       params
     });
-  },
-  components: {
-    NavigationComponent,
-    FooterComponent
   }
 };
 </script>
