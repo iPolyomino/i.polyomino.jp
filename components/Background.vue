@@ -1,5 +1,5 @@
 <template>
-<canvas id='backGroundCanvas'></canvas>
+<canvas id="backGroundCanvas"></canvas>
 </template>
 
 <script>

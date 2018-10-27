@@ -1,29 +1,21 @@
 <template>
-<v-layout>
-  <v-flex xs12>
-    <background-component/>
-    <navigation-component/>
-    <v-content class="main-contents">
-      <v-flex xs12 sm10 offset-sm1>
-        <hagi-component/>
-        <v-layout row wrap>
-          <v-flex v-if="article.media==null" xs12 v-for="article in articles" :key="article.key">
-            <article-component :title="article.title" :sentence="article.sentence" />
-          </v-flex>
-          <v-flex v-else sm6>
-            <article-component :media="article.media" :title="article.title" :sentence="article.sentence" />
-          </v-flex>
-        </v-layout>
-        <footer-component/>
+<v-content class="main-contents">
+  <v-flex xs12 sm10 offset-sm1>
+    <hagi-component/>
+    <v-layout row wrap>
+      <v-flex v-if="article.media==null" xs12 v-for="article in articles" :key="article.key">
+        <article-component :title="article.title" :sentence="article.sentence" />
       </v-flex>
-    </v-content>
+      <v-flex v-else sm6>
+        <article-component :media="article.media" :title="article.title" :sentence="article.sentence" />
+      </v-flex>
+    </v-layout>
+    <footer-component/>
   </v-flex>
-</v-layout>
+</v-content>
 </template>
 
 <script>
-import BackgroundComponent from "~/components/Background.vue";
-import NavigationComponent from "~/components/Navigation.vue";
 import HagiComponent from "~/components/Hagi.vue";
 import ArticleComponent from "~/components/Article.vue";
 import FooterComponent from "~/components/Footer.vue";
@@ -164,8 +156,6 @@ export default {
     };
   },
   components: {
-    BackgroundComponent,
-    NavigationComponent,
     HagiComponent,
     ArticleComponent,
     FooterComponent
