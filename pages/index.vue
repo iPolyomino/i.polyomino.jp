@@ -50,6 +50,37 @@ export default {
           }
         },
         {
+          media: "kasgai.png",
+          title: "Kasgai",
+          sentence: {
+            text: "現在作成中…",
+            links: [
+              {
+                name: "Kasgai",
+                url: "https://kasgai.com"
+              },
+              {
+                name: "GitHub",
+                url: "https://github.com/ipolyomino/kasgai"
+              }
+            ]
+          }
+        },
+        {
+          media: "kaguya_world.jpg",
+          title: "光輝くかぐやの世界",
+          sentence: {
+            text:
+              "国際学生対抗バーチャルリアリティコンテストにおいて選考を通過し，展示を行いました．かぐや姫の気持ちを体感できるVRゲームを作成しました．この開発はチームでの開発で行い，私はArduinoの制御プログラムを担当しました．",
+            links: [
+              {
+                name: "光輝くかぐやの世界",
+                url: "https://www.youtube.com/watch?v=3LsmLCUXDGg"
+              }
+            ]
+          }
+        },
+        {
           media: "CasAA.png",
           title: "CasAA",
           sentence: {
