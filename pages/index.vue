@@ -1,18 +1,30 @@
 <template>
-<v-content class="main-contents">
-  <v-flex xs12 sm10 offset-sm1>
-    <hagi-component/>
-    <v-layout row wrap>
-      <v-flex v-if="article.media==null" xs12 v-for="article in articles" :key="article.key">
-        <article-component :title="article.title" :sentence="article.sentence" />
-      </v-flex>
-      <v-flex v-else sm6>
-        <article-component :media="article.media" :title="article.title" :sentence="article.sentence" />
-      </v-flex>
-    </v-layout>
-    <footer-component/>
-  </v-flex>
-</v-content>
+  <v-content class="main-contents">
+    <v-flex xs12 sm10 offset-sm1>
+      <hagi-component />
+      <v-layout row wrap>
+        <v-flex
+          v-if="article.media == null"
+          xs12
+          v-for="article in articles"
+          :key="article.key"
+        >
+          <article-component
+            :title="article.title"
+            :sentence="article.sentence"
+          />
+        </v-flex>
+        <v-flex v-else sm6>
+          <article-component
+            :media="article.media"
+            :title="article.title"
+            :sentence="article.sentence"
+          />
+        </v-flex>
+      </v-layout>
+      <footer-component />
+    </v-flex>
+  </v-content>
 </template>
 
 <script>

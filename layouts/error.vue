@@ -1,13 +1,18 @@
 <template>
-<v-content class="main-contents">
-  <v-flex xs12 sm10 offset-sm1>
-    <v-layout row wrap>
-      <v-flex v-if="article.title==error.statusCode" xs12 v-for="article in articles" :key="article.key">
-        <word-component :title="article.title" :sentence="article.sentence" />
-      </v-flex>
-    </v-layout>
-  </v-flex>
-</v-content>
+  <v-content class="main-contents">
+    <v-flex xs12 sm10 offset-sm1>
+      <v-layout row wrap>
+        <v-flex
+          v-if="article.title == error.statusCode"
+          xs12
+          v-for="article in articles"
+          :key="article.key"
+        >
+          <word-component :title="article.title" :sentence="article.sentence" />
+        </v-flex>
+      </v-layout>
+    </v-flex>
+  </v-content>
 </template>
 
 <script>

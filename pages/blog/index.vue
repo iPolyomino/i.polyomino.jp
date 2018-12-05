@@ -1,17 +1,24 @@
 <template>
-<v-content class="main-contents">
-  <v-flex xs12 sm8 offset-sm2>
-    <v-card color="light-blue lighten-5" class="mx-2 my-2" v-for="article in sortedArticles" :key="article.base">
-      <v-container fluid grid-list-lg>
-        <h1>{{article.title}}</h1>
-        <p class="text-xs-right">{{article.date}}</p>
-        <p>{{article.preview}}</p>
-        <v-btn flat color="light-blue" :href="getUrl(article.base)">記事ページヘ</v-btn>
-      </v-container>
-    </v-card>
-    <footer-component/>
-  </v-flex>
-</v-content>
+  <v-content class="main-contents">
+    <v-flex xs12 sm8 offset-sm2>
+      <v-card
+        color="light-blue lighten-5"
+        class="mx-2 my-2"
+        v-for="article in sortedArticles"
+        :key="article.base"
+      >
+        <v-container fluid grid-list-lg>
+          <h1>{{ article.title }}</h1>
+          <p class="text-xs-right">{{ article.date }}</p>
+          <p>{{ article.preview }}</p>
+          <v-btn flat color="light-blue" :href="getUrl(article.base)"
+            >記事ページヘ</v-btn
+          >
+        </v-container>
+      </v-card>
+      <footer-component />
+    </v-flex>
+  </v-content>
 </template>
 
 <script>
