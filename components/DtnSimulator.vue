@@ -9,14 +9,25 @@ import Agent from "~/assets/dtnsim/agent.js";
 export default {
   methods: {
     drawCanvas() {
-      const agent = new Agent(this.ctx);
-      agent.setCoordinate(200, 200);
-      agent.draw();
-      this.ctx.fill();
+      const width = this.$el.width;
+      const height = this.$el.height;
+
+      const background = new Background(this.context, width, height);
+      background.draw();
+
+      this.agents.forEach(agent => {
+        agent.setCoordinate(width * Math.random(), height * Math.random());
+        agent.draw();
+      });
     }
   },
   mounted() {
-    this.ctx = this.$el.getContext("2d");
+    this.context = this.$el.getContext("2d");
+
+    // init agents
+    this.agents = [...Array(10).keys()].map(_ => new Agent(this.context));
+
+    // display
     this.drawCanvas();
   }
 };
