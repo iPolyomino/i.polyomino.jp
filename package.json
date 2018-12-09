@@ -18,22 +18,22 @@
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.0",
     "@nuxtjs/pwa": "^2.0.8",
-    "nuxt": "^2.2.0",
-    "processmd": "^4.2.1",
-    "vue": "^2.5.16"
+    "nuxt": "^2.3.4",
+    "processmd": "^4.4.0",
+    "vue": "^2.5.18"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^0.4.1",
     "ava": "^0.25.0",
     "babel-eslint": "^10.0.1",
     "babel-polyfill": "^6.26.0",
-    "eslint": "^5.7.0",
-    "eslint-config-prettier": "^3.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-vue": "^4.0.0",
-    "jsdom": "^12.2.0",
-    "prettier": "^1.14.2"
+    "eslint-plugin-vue": "^5.0.0",
+    "jsdom": "^13.0.0",
+    "prettier": "^1.15.3"
   }
 }

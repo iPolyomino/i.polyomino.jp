@@ -1,9 +1,8 @@
 <template>
-<canvas id="backGroundCanvas"></canvas>
+  <canvas id="backGroundCanvas"></canvas>
 </template>
 
 <script>
-import Vue from "vue";
 export default {
   mounted() {
     const color_arr = [
