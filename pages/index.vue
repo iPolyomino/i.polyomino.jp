@@ -57,11 +57,7 @@ export default {
               url: "https://github.com/iPolyomino"
             },
             {
-              name: "Main Blog",
-              url: "http://polyomino.hatenablog.jp/"
-            },
-            {
-              name: "Sub Blog",
+              name: "Blog",
               url: "/blog"
             }
           ]
