@@ -3,23 +3,26 @@
     <v-flex xs12 sm10 offset-sm1>
       <hagi-component />
       <v-layout row wrap>
-        <v-flex
-          v-if="article.media == null"
-          xs12
-          v-for="article in articles"
-          :key="article.key"
-        >
+        <v-flex xs12>
           <article-component
-            :title="article.title"
-            :sentence="article.sentence"
-          />
+            :title="aboutme.title"
+            :sentence="aboutme.sentence"
+          >
+          </article-component>
         </v-flex>
-        <v-flex v-else sm6>
+        <v-flex v-for="article in articles" :key="article.title" sm6>
           <article-component
             :media="article.media"
             :title="article.title"
             :sentence="article.sentence"
           />
+        </v-flex>
+        <v-flex v-for="afterword in afterwords" :key="afterword.title" xs12>
+          <article-component
+            :title="afterword.title"
+            :sentence="afterword.sentence"
+          >
+          </article-component>
         </v-flex>
       </v-layout>
       <footer-component />
@@ -35,32 +38,36 @@ import FooterComponent from "~/components/Footer.vue";
 export default {
   data() {
     return {
+      aboutme: {
+        title: "Hagiについて",
+        sentence: {
+          text:
+            "2018年現在，大学3年生．へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．データビジュアライゼーションに興味があります．",
+          links: [
+            {
+              name: "Twitter",
+              url: "https://twitter.com/iPolyomino"
+            },
+            {
+              name: "Mastodon ",
+              url: "https://mstdn.jp/@iPolyomino"
+            },
+            {
+              name: "GitHub",
+              url: "https://github.com/iPolyomino"
+            },
+            {
+              name: "Main Blog",
+              url: "http://polyomino.hatenablog.jp/"
+            },
+            {
+              name: "Sub Blog",
+              url: "/blog"
+            }
+          ]
+        }
+      },
       articles: [
-        {
-          title: "Hagiについて",
-          sentence: {
-            text:
-              "2018年現在，大学3年生．へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．データビジュアライゼーションに興味があります．",
-            links: [
-              {
-                name: "Twitter",
-                url: "https://twitter.com/iPolyomino"
-              },
-              {
-                name: "Mastodon ",
-                url: "https://mstdn.jp/@iPolyomino"
-              },
-              {
-                name: "GitHub",
-                url: "https://github.com/iPolyomino"
-              },
-              {
-                name: "Blog",
-                url: "http://polyomino.hatenablog.jp/"
-              }
-            ]
-          }
-        },
         {
           media: "kasgai.png",
           title: "Kasgai",
@@ -176,7 +183,9 @@ export default {
               }
             ]
           }
-        },
+        }
+      ],
+      afterwords: [
         {
           title: "ポリオミノ(Polyomino)",
           sentence: {
