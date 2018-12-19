@@ -6,9 +6,9 @@ export default class Agent {
     this.x = 0;
     this.y = 0;
   }
-  setCoordinate(x, y) {
-    this.x = x - this.size / 2;
-    this.y = y - this.size / 2;
+  setCoordinate(coordinate) {
+    this.x = coordinate[0];
+    this.y = coordinate[1];
   }
   setColor(color) {
     this.color = color;
