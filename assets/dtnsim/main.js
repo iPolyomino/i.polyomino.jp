@@ -1,5 +1,6 @@
 import Agent from "~/assets/dtnsim/agent.js";
-import Background from "~/assets/dtnsim/background.js";
+import Graph from "~/assets/dtnsim/graph.js";
+import { voronoi as d3Voronoi } from "d3-voronoi";
 
 export default class Main {
   constructor(context, width, height, nodeCount = 10, agentCount = 3) {
@@ -19,27 +20,32 @@ export default class Main {
     this.nodeCount = nodeCount;
     this.agentCount = agentCount;
 
-    // init agents
-    this.agents = [...Array(this.agentCount).keys()].map(
-      _ => new Agent(this.context)
-    );
-
     // init nodes
-    this.nodes = [...Array(this.nodeCount).keys()].map(agent => {
+    this.nodes = [...Array(this.nodeCount).keys()].map(_ => {
       const x = Math.random() * this.width;
       const y = Math.random() * this.height;
       return [x, y];
     });
 
-    // display
-    const background = new Background(
+    // init voronoi diagram
+    const voronoi = d3Voronoi();
+    voronoi.extent([[0, 0], [this.width, this.height]]);
+    this.links = voronoi(this.nodes).links();
+    const graph = new Graph(
       this.context,
       this.width,
       this.height,
-      this.nodes
+      this.nodes,
+      this.links
     );
-    background.draw();
 
+    // init agents
+    this.agents = [...Array(this.agentCount).keys()].map(
+      _ => new Agent(this.context)
+    );
+
+    // display
+    graph.draw();
     this.agents.forEach(agent => {
       const index = Math.floor(this.nodes.length * Math.random());
       const coordinate = this.nodes[index];
