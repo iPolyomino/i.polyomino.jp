@@ -20,13 +20,14 @@
     "@nuxtjs/pwa": "^2.0.8",
     "nuxt": "^2.3.4",
     "processmd": "^4.4.0",
-    "vue": "^2.5.18"
+    "vue": "^2.5.21"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^0.4.1",
-    "ava": "^0.25.0",
+    "ava": "^1.0.1",
     "babel-eslint": "^10.0.1",
     "babel-polyfill": "^6.26.0",
+    "d3-voronoi": "^1.1.4",
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-friendly-formatter": "^4.0.1",
