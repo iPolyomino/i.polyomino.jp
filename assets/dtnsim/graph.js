@@ -1,4 +1,5 @@
 import Path from "~/assets/dtnsim/path.js";
+import Node from "~/assets/dtnsim/node.js";
 
 export default class Graph {
   constructor(context, width = 800, height = 600, nodes = [], links = []) {
@@ -18,6 +19,9 @@ export default class Graph {
     this.links.forEach(link => {
       const newPath = new Path(this.context, link.source, link.target);
       newPath.draw();
+    });
+    this.nodes.forEach(node => {
+      node.draw();
     });
   }
 }
