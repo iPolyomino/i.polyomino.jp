@@ -1,6 +1,7 @@
 import Agent from "~/assets/dtnsim/agent.js";
 import Graph from "~/assets/dtnsim/graph.js";
 import Node from "~/assets/dtnsim/node.js";
+import { RandomSelect } from "~/assets/dtnsim/algorithm.js";
 import { voronoi as d3Voronoi } from "d3-voronoi";
 
 export default class Main {
@@ -60,12 +61,26 @@ export default class Main {
 
     // display
     graph.draw();
-    this.agents.forEach(agent => {
+
+    this.agents.forEach((_, index) => {
       // agents start from node
-      const index = Math.floor(this.nodes.length * Math.random());
-      const coordinate = this.nodes[index].coordinate;
-      agent.setCoordinate(coordinate);
-      agent.draw();
+      const sourceNode = this.nodes[
+        Math.floor(this.nodes.length * Math.random())
+      ];
+      const targetNode = RandomSelect(sourceNode);
+      this.agents[index].setNode(sourceNode, targetNode);
+      const coordinate = sourceNode.coordinate;
+      this.agents[index].setCoordinate(coordinate);
+      this.agents[index].draw();
     });
+    this.render();
+  }
+  render() {
+    this.context.clearRect(0, 0, this.width, this.height);
+    this.agents.forEach(agent => {
+      agent.move();
+    });
+
+    window.requestAnimationFrame(this.render.bind(this));
   }
 }
