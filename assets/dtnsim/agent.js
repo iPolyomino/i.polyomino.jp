@@ -6,28 +6,20 @@ export default class Agent {
     this.color = "#2f3fef";
     this.context = context;
     this.coordinate = [0, 0];
+    this.sourceNode = null;
+    this.targetNode = null;
     this.unitVector = null;
   }
-  setCoordinate(coordinate) {
-    this.coordinate = coordinate;
-  }
-  setNode(sourceNode, targetNode) {
-    this.sourceNode = sourceNode;
-    this.targetNode = targetNode;
+  initStartNode(startNode) {
+    this.sourceNode = startNode;
+    this.coordinate = startNode.coordinate;
   }
   setColor(color) {
     this.color = color;
   }
-  initVector() {
-    const xDiff = this.targetNode.coordinate[0] - this.sourceNode.coordinate[0];
-    const yDiff = this.targetNode.coordinate[1] - this.sourceNode.coordinate[1];
-    // |\vec{a}|
-    const vecA = Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
-    this.unitVector = [xDiff / vecA, yDiff / vecA];
-  }
   move() {
-    if (this.unitVector === null) {
-      this.initVector();
+    if (this.unitVector === null || this.targetNode === null) {
+      this.selectNextNode();
     }
 
     // This agent move unit vector every loop.
@@ -41,18 +33,31 @@ export default class Agent {
     );
 
     if (distance < 1) {
-      this.setCoordinate(this.targetNode.coordinate);
+      this.coordinate = this.targetNode.coordinate;
       this.sourceNode = this.targetNode;
-      this.targetNode = RandomSelect(this.targetNode);
-      this.initVector();
+      this.selectNextNode();
     }
     const newCoordinate = [
       this.coordinate[0] + this.unitVector[0],
       this.coordinate[1] + this.unitVector[1]
     ];
 
-    this.setCoordinate(newCoordinate);
+    this.coordinate = newCoordinate;
     this.draw();
+  }
+  selectNextNode() {
+    if (this.sourceNode === null) {
+      throw new Error("sourceNode is not initialized.");
+    }
+    this.targetNode = RandomSelect(this.sourceNode);
+    this.calcVector();
+  }
+  calcVector() {
+    const xDiff = this.targetNode.coordinate[0] - this.sourceNode.coordinate[0];
+    const yDiff = this.targetNode.coordinate[1] - this.sourceNode.coordinate[1];
+    // |\vec{a}|
+    const vecA = Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
+    this.unitVector = [xDiff / vecA, yDiff / vecA];
   }
   draw() {
     this.context.beginPath();

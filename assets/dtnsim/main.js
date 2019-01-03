@@ -1,11 +1,10 @@
 import Agent from "~/assets/dtnsim/agent.js";
 import Graph from "~/assets/dtnsim/graph.js";
 import Node from "~/assets/dtnsim/node.js";
-import { RandomSelect } from "~/assets/dtnsim/algorithm.js";
 import { voronoi as d3Voronoi } from "d3-voronoi";
 
 export default class Main {
-  constructor(context, width, height, nodeCount = 10, agentCount = 3) {
+  constructor(context, width, height, nodeCount = 20, agentCount = 3) {
     if (context == null) {
       throw new Error(`context: ${context}`);
     }
@@ -46,7 +45,7 @@ export default class Main {
       this.nodes[targetIndex].appendConnectedNode(this.nodes[sourceIndex]);
     });
 
-    const graph = new Graph(
+    this.graph = new Graph(
       this.context,
       this.width,
       this.height,
@@ -59,24 +58,21 @@ export default class Main {
       _ => new Agent(this.context)
     );
 
-    // display
-    graph.draw();
-
     this.agents.forEach((_, index) => {
       // agents start from node
-      const sourceNode = this.nodes[
+      const startNode = this.nodes[
         Math.floor(this.nodes.length * Math.random())
       ];
-      const targetNode = RandomSelect(sourceNode);
-      this.agents[index].setNode(sourceNode, targetNode);
-      const coordinate = sourceNode.coordinate;
-      this.agents[index].setCoordinate(coordinate);
-      this.agents[index].draw();
+      this.agents[index].initStartNode(startNode);
     });
     this.render();
   }
   render() {
+    // prepare redraw
     this.context.clearRect(0, 0, this.width, this.height);
+
+    // redraw
+    this.graph.draw();
     this.agents.forEach(agent => {
       agent.move();
     });
