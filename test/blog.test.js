@@ -22,7 +22,8 @@ test("Route /blog exits and render HTML", async t => {
   let context = {};
   const { html, error } = await nuxt.renderRoute("/blog", context);
   t.deepEqual(error, null);
-  t.true(html.includes("© 2018 Hagi"));
+  t.true(html.includes("©"));
+  t.true(html.includes("Hagi"));
   t.is(error, null);
 });
 

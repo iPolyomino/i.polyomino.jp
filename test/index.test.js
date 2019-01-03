@@ -22,7 +22,8 @@ test("Route / exits and render HTML", async t => {
   let context = {};
   const { html } = await nuxt.renderRoute("/", context);
   t.true(html.includes("Hagiについて"));
-  t.true(html.includes("© 2018 Hagi"));
+  t.true(html.includes("©"));
+  t.true(html.includes("Hagi"));
 });
 
 test("Exists polyomino svg", async t => {

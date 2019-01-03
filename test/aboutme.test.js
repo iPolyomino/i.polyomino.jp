@@ -23,7 +23,8 @@ test("Route /aboutme exits and render HTML", async t => {
   const { html, error } = await nuxt.renderRoute("/aboutme", context);
   t.true(html.includes("<h1>Hagiについて</h1>"));
   t.true(html.includes("<h1>やってきたこと</h1>"));
-  t.true(html.includes("© 2018 Hagi"));
+  t.true(html.includes("©"));
+  t.true(html.includes("Hagi"));
   t.is(error, null);
 });
 
