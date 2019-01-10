@@ -65,6 +65,10 @@ export default class Main {
       ];
       this.agents[index].initStartNode(startNode);
     });
+
+    // source agent
+    this.agents[0].isDelivered = true;
+
     this.render();
   }
   render() {
@@ -77,6 +81,26 @@ export default class Main {
       agent.move();
     });
 
+    // This algorithm has large amount of calculation.
+    // Please check 'quadtree'.
+    for (let i = 0; i < this.agents.length; i++) {
+      for (let j = 0; j < this.agents.length; j++) {
+        const sourceAgent = this.agents[i];
+        const targetAgent = this.agents[j];
+        if (i === j || !sourceAgent.isDelivered || targetAgent.isDelivered) {
+          continue;
+        }
+
+        const xDiff = targetAgent.coordinate[0] - sourceAgent.coordinate[0];
+        const yDiff = targetAgent.coordinate[1] - sourceAgent.coordinate[1];
+        const distance = Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
+
+        if (distance < sourceAgent.range + targetAgent.size) {
+          // target agetn delivered
+          this.agents[j].isDelivered = true;
+        }
+      }
+    }
     window.requestAnimationFrame(this.render.bind(this));
   }
 }

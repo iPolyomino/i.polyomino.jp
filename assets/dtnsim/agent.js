@@ -1,21 +1,19 @@
 import { RandomSelect } from "~/assets/dtnsim/algorithm.js";
 
 export default class Agent {
-  constructor(context) {
-    this.size = 10;
-    this.color = "#2f3fef";
+  constructor(context, range = 40) {
     this.context = context;
+    this.range = range;
+    this.size = 10;
     this.coordinate = [0, 0];
     this.sourceNode = null;
     this.targetNode = null;
     this.unitVector = null;
+    this.isDelivered = false;
   }
   initStartNode(startNode) {
     this.sourceNode = startNode;
     this.coordinate = startNode.coordinate;
-  }
-  setColor(color) {
-    this.color = color;
   }
   move() {
     if (this.unitVector === null || this.targetNode === null) {
@@ -60,8 +58,24 @@ export default class Agent {
     this.unitVector = [xDiff / vecA, yDiff / vecA];
   }
   draw() {
+    // range
     this.context.beginPath();
-    this.context.fillStyle = this.color;
+    this.context.fillStyle = "hsla(200, 70%, 70%, 0.6)";
+    this.context.arc(
+      this.coordinate[0],
+      this.coordinate[1],
+      this.range,
+      0,
+      Math.PI * 2
+    );
+    this.context.fill();
+
+    // body
+    this.context.beginPath();
+    this.context.fillStyle = "hsl(60, 100%, 50%)";
+    if (this.isDelivered) {
+      this.context.fillStyle = "hsl(230, 100%, 50%)";
+    }
     this.context.arc(
       this.coordinate[0],
       this.coordinate[1],
