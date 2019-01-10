@@ -1,5 +1,6 @@
 import Agent from "~/assets/dtnsim/agent.js";
 import Graph from "~/assets/dtnsim/graph.js";
+import Information from "~/assets/dtnsim/information.js";
 import Node from "~/assets/dtnsim/node.js";
 import { voronoi as d3Voronoi } from "d3-voronoi";
 
@@ -53,6 +54,8 @@ export default class Main {
       this.links
     );
 
+    this.information = new Information(this.context, this.width, this.height);
+
     // init agents
     this.agents = [...Array(this.agentCount).keys()].map(
       _ => new Agent(this.context)
@@ -101,6 +104,11 @@ export default class Main {
         }
       }
     }
+
+    // information
+    this.information.time++;
+    this.information.draw();
+
     window.requestAnimationFrame(this.render.bind(this));
   }
 }
