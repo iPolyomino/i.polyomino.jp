@@ -9,7 +9,7 @@ export default {
   data: function() {
     return {
       NODE_COUNT: 20,
-      AGENT_COUNT: 2
+      AGENT_COUNT: 10
     };
   },
   mounted() {

@@ -1,5 +1,6 @@
 import Agent from "~/assets/dtnsim/agent.js";
 import Graph from "~/assets/dtnsim/graph.js";
+import Information from "~/assets/dtnsim/information.js";
 import Node from "~/assets/dtnsim/node.js";
 import { voronoi as d3Voronoi } from "d3-voronoi";
 
@@ -53,6 +54,8 @@ export default class Main {
       this.links
     );
 
+    this.information = new Information(this.context, this.width, this.height);
+
     // init agents
     this.agents = [...Array(this.agentCount).keys()].map(
       _ => new Agent(this.context)
@@ -65,6 +68,10 @@ export default class Main {
       ];
       this.agents[index].initStartNode(startNode);
     });
+
+    // source agent
+    this.agents[0].isDelivered = true;
+
     this.render();
   }
   render() {
@@ -76,6 +83,31 @@ export default class Main {
     this.agents.forEach(agent => {
       agent.move();
     });
+
+    // This algorithm has large amount of calculation.
+    // Please check 'quadtree'.
+    for (let i = 0; i < this.agents.length; i++) {
+      for (let j = 0; j < this.agents.length; j++) {
+        const sourceAgent = this.agents[i];
+        const targetAgent = this.agents[j];
+        if (i === j || !sourceAgent.isDelivered || targetAgent.isDelivered) {
+          continue;
+        }
+
+        const xDiff = targetAgent.coordinate[0] - sourceAgent.coordinate[0];
+        const yDiff = targetAgent.coordinate[1] - sourceAgent.coordinate[1];
+        const distance = Math.sqrt(Math.pow(xDiff, 2) + Math.pow(yDiff, 2));
+
+        if (distance < sourceAgent.range + targetAgent.size) {
+          // target agetn delivered
+          this.agents[j].isDelivered = true;
+        }
+      }
+    }
+
+    // information
+    this.information.time++;
+    this.information.draw();
 
     window.requestAnimationFrame(this.render.bind(this));
   }
