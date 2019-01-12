@@ -1,9 +1,10 @@
 import { RandomSelect } from "~/assets/dtnsim/algorithm.js";
 
 export default class Agent {
-  constructor(context, range = 40) {
+  constructor(context, { range = 40, algorithm = RandomSelect } = {}) {
     this.context = context;
     this.range = range;
+    this.algorithm = algorithm;
     this.size = 10;
     this.coordinate = [0, 0];
     this.sourceNode = null;
@@ -47,7 +48,7 @@ export default class Agent {
     if (this.sourceNode === null) {
       throw new Error("sourceNode is not initialized.");
     }
-    this.targetNode = RandomSelect(this.sourceNode);
+    this.targetNode = this.algorithm(this.sourceNode);
     this.calcVector();
   }
   calcVector() {
