@@ -6,20 +6,21 @@
 import Main from "~/assets/dtnsim/main.js";
 
 export default {
-  data: function() {
-    return {
-      NODE_COUNT: 20,
-      AGENT_COUNT: 10
-    };
-  },
+  props: ["settings"],
   mounted() {
-    new Main(
-      this.$el.getContext("2d"),
-      this.$el.width,
-      this.$el.height,
-      this.NODE_COUNT,
-      this.AGENT_COUNT
-    );
+    this.main = new Main(this.$el, this.settings);
+  },
+  methods: {
+    initMain() {
+      if (this.main != null) {
+        this.main.stopAnimation();
+      }
+      try {
+        this.main = new Main(this.$el, this.settings);
+      } catch (error) {
+        alert(error);
+      }
+    }
   }
 };
 </script>

@@ -5,25 +5,38 @@ import Node from "~/assets/dtnsim/node.js";
 import { voronoi as d3Voronoi } from "d3-voronoi";
 
 export default class Main {
-  constructor(context, width, height, nodeCount = 20, agentCount = 3) {
-    if (context == null) {
-      throw new Error(`context: ${context}`);
-    }
-    if (width == null) {
-      throw new Error(`width: ${width}`);
-    }
-    if (height == null) {
-      throw new Error(`height: ${height}`);
+  constructor(canvas, { node = 20, agent = 3, range = 10, algorithm } = {}) {
+    if (canvas == null) {
+      throw new Error(`canvas: ${canvas}`);
     }
 
-    this.context = context;
-    this.width = width;
-    this.height = height;
-    this.nodeCount = nodeCount;
-    this.agentCount = agentCount;
+    if (node !== parseInt(node, 10)) {
+      throw new Error(`'node' should be integer`);
+    }
+    if (node < 3) {
+      throw new Error(`'node' should be more than 3`);
+    }
+
+    if (agent !== parseInt(agent, 10)) {
+      throw new Error(`'agent' should be integer`);
+    }
+    if (agent < 2) {
+      throw new Error(`'agent' should be more than 2`);
+    }
+
+    if (range !== parseInt(range, 10)) {
+      throw new Error(`'range' should be integer`);
+    }
+    if (range < 10) {
+      throw new Error(`'node' should be more than 10`);
+    }
+
+    this.context = canvas.getContext("2d");
+    this.width = canvas.width;
+    this.height = canvas.height;
 
     // init nodes
-    this.nodes = [...Array(this.nodeCount).keys()].map(key => {
+    this.nodes = [...Array(node).keys()].map(key => {
       const x = Math.random() * this.width;
       const y = Math.random() * this.height;
       return new Node(this.context, [x, y], key);
@@ -57,8 +70,9 @@ export default class Main {
     this.information = new Information(this.context, this.width, this.height);
 
     // init agents
-    this.agents = [...Array(this.agentCount).keys()].map(
-      _ => new Agent(this.context)
+    const agentSettings = { range: range, algorithm: algorithm };
+    this.agents = [...Array(agent).keys()].map(
+      _ => new Agent(this.context, agentSettings)
     );
 
     this.agents.forEach((_, index) => {
@@ -109,6 +123,11 @@ export default class Main {
     this.information.time++;
     this.information.draw();
 
-    window.requestAnimationFrame(this.render.bind(this));
+    this.requestId = window.requestAnimationFrame(this.render.bind(this));
+  }
+  stopAnimation() {
+    if (this.requestId != null) {
+      cancelAnimationFrame(this.requestId);
+    }
   }
 }
