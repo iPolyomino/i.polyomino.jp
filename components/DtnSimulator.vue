@@ -12,8 +12,14 @@ export default {
   },
   methods: {
     initMain() {
-      this.main.stopAnimation();
-      this.main = new Main(this.$el, this.settings);
+      if (this.main != null) {
+        this.main.stopAnimation();
+      }
+      try {
+        this.main = new Main(this.$el, this.settings);
+      } catch (error) {
+        alert(error);
+      }
     }
   }
 };

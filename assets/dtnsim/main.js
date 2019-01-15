@@ -8,19 +8,30 @@ export default class Main {
   constructor(canvas, { node = 20, agent = 3, range, algorithm } = {}) {
     if (canvas == null) {
       throw new Error(`canvas: ${canvas}`);
-      return;
     }
+
     if (node !== parseInt(node, 10)) {
       throw new Error(`'node' should be integer`);
-      return;
     }
+    if (node < 3) {
+      throw new Error(`'node' should be more than 3`);
+    }
+
     if (agent !== parseInt(agent, 10)) {
       throw new Error(`'agent' should be integer`);
-      return;
     }
-    if (range !== parseInt(range, 10)) {
-      throw new Error(`'range' should be integer`);
-      return;
+    if (agent < 2) {
+      throw new Error(`'agent' should be more than 2`);
+    }
+
+    if (range != null) {
+      if (range !== parseInt(range, 10)) {
+        throw new Error(`'range' should be integer`);
+      }
+
+      if (range < 10) {
+        throw new Error(`'node' should be more than 10`);
+      }
     }
 
     this.context = canvas.getContext("2d");
