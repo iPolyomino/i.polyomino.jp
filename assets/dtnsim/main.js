@@ -5,7 +5,7 @@ import Node from "~/assets/dtnsim/node.js";
 import { voronoi as d3Voronoi } from "d3-voronoi";
 
 export default class Main {
-  constructor(canvas, { node = 20, agent = 3, range, algorithm } = {}) {
+  constructor(canvas, { node = 20, agent = 3, range = 10, algorithm } = {}) {
     if (canvas == null) {
       throw new Error(`canvas: ${canvas}`);
     }
@@ -24,14 +24,11 @@ export default class Main {
       throw new Error(`'agent' should be more than 2`);
     }
 
-    if (range != null) {
-      if (range !== parseInt(range, 10)) {
-        throw new Error(`'range' should be integer`);
-      }
-
-      if (range < 10) {
-        throw new Error(`'node' should be more than 10`);
-      }
+    if (range !== parseInt(range, 10)) {
+      throw new Error(`'range' should be integer`);
+    }
+    if (range < 10) {
+      throw new Error(`'node' should be more than 10`);
     }
 
     this.context = canvas.getContext("2d");
