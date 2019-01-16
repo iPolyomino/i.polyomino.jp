@@ -42,7 +42,7 @@ export default {
         title: "Hagiについて",
         sentence: {
           text:
-            "2018年現在，大学3年生．へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．データビジュアライゼーションに興味があります．",
+            "大学3年生．へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．データビジュアライゼーションに興味があります．",
           links: [
             {
               name: "Twitter",
@@ -77,6 +77,20 @@ export default {
               {
                 name: "GitHub",
                 url: "https://github.com/ipolyomino/kasgai"
+              }
+            ]
+          }
+        },
+        {
+          media: "dtnsim.jpg",
+          title: "DTNシミュレータ",
+          sentence: {
+            text:
+              "DTN(Delay/Disruption-Tolerant Networking)のシミュレータをJavaScriptにて実装しました．現在，エピデミックブロードキャストのみに対応しています．",
+            links: [
+              {
+                name: "DTNシミュレータ",
+                url: "/dtnsim"
               }
             ]
           }
