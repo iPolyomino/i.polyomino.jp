@@ -86,7 +86,7 @@ export default {
           title: "DTNシミュレータ",
           sentence: {
             text:
-              "DTN(Delay/Disruption-Tolerant Networking)fdのシミュレータをJavaScriptにて実装しました．現在，エピデミックブロードキャストのみに対応しています．",
+              "DTN(Delay/Disruption-Tolerant Networking)のシミュレータをJavaScriptにて実装しました．現在，エピデミックブロードキャストのみに対応しています．",
             links: [
               {
                 name: "DTNシミュレータ",
