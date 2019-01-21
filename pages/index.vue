@@ -72,11 +72,11 @@ export default {
             links: [
               {
                 name: "Kasgai",
-                url: "https://kasgai.com"
+                url: "https://kasgai-com.appspot.com/"
               },
               {
                 name: "GitHub",
-                url: "https://github.com/ipolyomino/kasgai"
+                url: "https://github.com/Kasgai"
               }
             ]
           }
