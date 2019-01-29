@@ -23,13 +23,13 @@
     "vue": "^2.5.22"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^0.4.1",
-    "ava": "^0.25.0",
+    "@nuxtjs/vuetify": "^0.5.2",
+    "ava": "^1.2.0",
     "babel-eslint": "^10.0.1",
     "babel-polyfill": "^6.26.0",
     "d3-voronoi": "^1.1.4",
     "eslint": "^5.12.0",
-    "eslint-config-prettier": "^3.4.0",
+    "eslint-config-prettier": "^4.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-prettier": "^3.0.1",
