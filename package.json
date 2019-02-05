@@ -20,7 +20,8 @@
     "@nuxtjs/pwa": "^2.0.8",
     "nuxt": "^2.3.4",
     "processmd": "^4.4.0",
-    "vue": "^2.5.22"
+    "vue": "^2.5.22",
+    "vue-lazyload": "^1.2.6"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^0.5.2",

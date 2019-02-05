@@ -29,6 +29,7 @@ module.exports = {
    ** Customize the progress bar color
    */
   modules: ["@nuxtjs/vuetify", "@nuxtjs/markdownit", "@nuxtjs/pwa"],
+  plugins: [{ src: "~/plugins/vue-lazyload", ssr: false }],
   loading: { color: "#03A9F4" },
   manifest: {
     name: "Hagi",
