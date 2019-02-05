@@ -1,6 +1,6 @@
 <template>
   <v-card color="light-blue lighten-5" class="mx-2 my-2">
-    <img v-if="media != null" :src="getImgUrl(media)" :alt="media" />
+    <img v-if="media != null" v-lazy="getImgUrl(media)" :alt="media" />
     <v-container fluid grid-list-lg>
       <v-layout row wrap>
         <v-flex xs12>
