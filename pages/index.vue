@@ -82,7 +82,7 @@ export default {
           }
         },
         {
-          media: "dtnsim.jpg",
+          media: "dtnsim.webp",
           title: "DTNシミュレータ",
           sentence: {
             text:
@@ -96,7 +96,7 @@ export default {
           }
         },
         {
-          media: "kaguya_world.jpg",
+          media: "kaguya_world.webp",
           title: "光輝くかぐやの世界",
           sentence: {
             text:
@@ -138,7 +138,7 @@ export default {
           }
         },
         {
-          media: "projection_mapping.jpg",
+          media: "projection_mapping.webp",
           title: "プロジェクションマッピング",
           sentence: {
             text:
@@ -153,7 +153,7 @@ export default {
           }
         },
         {
-          media: "pronama_time.jpg",
+          media: "pronama_time.webp",
           title: "プロ生ちゃんの時間！",
           sentence: {
             text: "Google Chromeの拡張機能です．プロ生ちゃんによる時報です．",
