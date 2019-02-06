@@ -105,6 +105,10 @@ export default {
               {
                 name: "光輝くかぐやの世界",
                 url: "https://www.youtube.com/watch?v=3LsmLCUXDGg"
+              },
+              {
+                name: "ソースコード",
+                url: "https://github.com/creativeIKEP/ShineKaguyaWorldVR"
               }
             ]
           }
