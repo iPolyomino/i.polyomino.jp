@@ -65,7 +65,7 @@ export default {
       },
       articles: [
         {
-          media: "kasgai.png",
+          media: "kasgai.webp",
           title: "Kasgai",
           sentence: {
             text: "現在作成中…",
@@ -110,7 +110,7 @@ export default {
           }
         },
         {
-          media: "CasAA.png",
+          media: "CasAA.webp",
           title: "CasAA",
           sentence: {
             text:
@@ -124,7 +124,7 @@ export default {
           }
         },
         {
-          media: "TRPG_DICE.png",
+          media: "TRPG_DICE.webp",
           title: "TRPG DICE",
           sentence: {
             text:
@@ -167,7 +167,7 @@ export default {
           }
         },
         {
-          media: "virtual_science_fair.png",
+          media: "virtual_science_fair.webp",
           title: "Canada Wide Virtual Science Fair",
           sentence: {
             text:
@@ -181,7 +181,7 @@ export default {
           }
         },
         {
-          media: "chocolategame.jpg",
+          media: "chocolategame.webp",
           title: "全国中学高校Webコンテスト",
           sentence: {
             text:
