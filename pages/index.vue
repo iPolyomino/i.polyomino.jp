@@ -65,7 +65,7 @@ export default {
       },
       articles: [
         {
-          media: "kasgai.webp",
+          media: { webp: "kasgai.webp", png: "kasgai.png" },
           title: "Kasgai",
           sentence: {
             text: "現在作成中…",
@@ -82,7 +82,7 @@ export default {
           }
         },
         {
-          media: "dtnsim.webp",
+          media: { webp: "dtnsim.webp", jpg: "dtnsim.jpg" },
           title: "DTNシミュレータ",
           sentence: {
             text:
@@ -96,7 +96,7 @@ export default {
           }
         },
         {
-          media: "kaguya_world.webp",
+          media: { webp: "kaguya_world.webp", jpg: "kaguya_world.jpg" },
           title: "光輝くかぐやの世界",
           sentence: {
             text:
@@ -114,7 +114,7 @@ export default {
           }
         },
         {
-          media: "CasAA.webp",
+          media: { webp: "CasAA.webp", png: "CasAA.png" },
           title: "CasAA",
           sentence: {
             text:
@@ -128,7 +128,7 @@ export default {
           }
         },
         {
-          media: "TRPG_DICE.webp",
+          media: { webp: "TRPG_DICE.webp", png: "TRPG_DICE.png" },
           title: "TRPG DICE",
           sentence: {
             text:
@@ -142,7 +142,10 @@ export default {
           }
         },
         {
-          media: "projection_mapping.webp",
+          media: {
+            webp: "projection_mapping.webp",
+            jpg: "projection_mapping.jpg"
+          },
           title: "プロジェクションマッピング",
           sentence: {
             text:
@@ -157,7 +160,7 @@ export default {
           }
         },
         {
-          media: "pronama_time.webp",
+          media: { webp: "pronama_time.webp", jpg: "pronama_time.jpg" },
           title: "プロ生ちゃんの時間！",
           sentence: {
             text: "Google Chromeの拡張機能です．プロ生ちゃんによる時報です．",
@@ -171,7 +174,10 @@ export default {
           }
         },
         {
-          media: "virtual_science_fair.webp",
+          media: {
+            webp: "virtual_science_fair.webp",
+            png: "virtual_science_fair.png"
+          },
           title: "Canada Wide Virtual Science Fair",
           sentence: {
             text:
@@ -185,7 +191,7 @@ export default {
           }
         },
         {
-          media: "chocolategame.webp",
+          media: { webp: "chocolategame.webp", jpg: "chocolategame.jpg" },
           title: "全国中学高校Webコンテスト",
           sentence: {
             text:

@@ -1,6 +1,32 @@
 <template>
   <v-card color="light-blue lighten-5" class="mx-2 my-2">
-    <img v-if="media != null" v-lazy="getImgUrl(media)" :alt="media" />
+    <picture v-if="media != null">
+      <source
+        v-if="media.webp != null"
+        :srcset="getImgUrl(media.webp)"
+        type="image/webp"
+      />
+      <source
+        v-if="media.jpg != null"
+        :srcset="getImgUrl(media.jpg)"
+        type="image/jpeg"
+      />
+      <source
+        v-if="media.png != null"
+        :srcset="getImgUrl(media.png)"
+        type="image/png"
+      />
+      <img
+        v-if="media.jpg != null"
+        v-lazy="getImgUrl(media.jpg)"
+        :alt="media.jpg"
+      />
+      <img
+        v-else-if="media.png != null"
+        v-lazy="getImgUrl(media.png)"
+        :alt="media.png"
+      />
+    </picture>
     <v-container fluid grid-list-lg>
       <v-layout row wrap>
         <v-flex xs12>
