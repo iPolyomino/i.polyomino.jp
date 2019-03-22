@@ -30,6 +30,7 @@ jobs:
 
       # make blog data
       - run: yarn summary
+      - run: yarn build
 
       - save_cache:
           paths:
