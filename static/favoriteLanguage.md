@@ -2,4 +2,4 @@
 
 * JavaScript
 * Python
-* Rust
+* Go
