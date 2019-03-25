@@ -68,11 +68,12 @@ export default {
           media: { webp: "kasgai.webp", png: "kasgai.png" },
           title: "Kasgai",
           sentence: {
-            text: "現在作成中…",
+            text:
+              "ビジュアルプログラミング言語と汎用プログラミング言語の橋渡しとなるアプリケーションです．",
             links: [
               {
                 name: "Kasgai",
-                url: "https://kasgai-com.appspot.com/"
+                url: "https://kasgai-com.appspot.com"
               },
               {
                 name: "GitHub",
@@ -199,7 +200,24 @@ export default {
             links: [
               {
                 name: "チョコレートゲーム",
-                url: "http://chocolategame.jp/"
+                url: "http://chocolategame.jp"
+              }
+            ]
+          }
+        },
+        {
+          media: { webp: "szm_corp.webp", jpg: "szm_corp.jpg" },
+          title: "SZM株式会社",
+          sentence: {
+            text: "架空企業のウェブサイトです．",
+            links: [
+              {
+                name: "公式ウェブサイト",
+                url: "https://szm.netlify.com"
+              },
+              {
+                name: "ソースコード",
+                url: "https://github.com/iPolyomino/szm-corp"
               }
             ]
           }
