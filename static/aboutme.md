@@ -6,4 +6,4 @@
 [GitHub](https://github.com/iPolyomino)
 [Twitter](https://twitter.com/iPolyomino)
 [Mastodon](https://mstdn.jp/@iPolyomino)
-[blog](https://polyomino.hatenablog.jp/)
+[はてなブログ](https://polyomino.hatenablog.jp/)
