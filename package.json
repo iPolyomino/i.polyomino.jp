@@ -39,7 +39,7 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-vue": "^5.1.0",
-    "jsdom": "^14.0.0",
+    "jsdom": "^15.0.0",
     "prettier": "^1.15.3"
   }
 }
