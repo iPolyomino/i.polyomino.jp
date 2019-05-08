@@ -21,7 +21,11 @@
     "nuxt": "^2.3.4",
     "processmd": "^4.4.0",
     "vue": "^2.5.22",
-    "vue-lazyload": "^1.2.6"
+    "vue-lazyload": "^1.2.6",
+    "vue-template-compiler": "^2.5.0",
+    "vuetify": "^1.3.0",
+    "vuetify-loader": "^1.2.1",
+    "webpack": "^4.3.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^0.5.2",
@@ -35,7 +39,7 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-vue": "^5.1.0",
-    "jsdom": "^14.0.0",
+    "jsdom": "^15.0.0",
     "prettier": "^1.15.3"
   }
 }
