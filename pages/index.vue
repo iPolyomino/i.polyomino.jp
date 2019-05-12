@@ -87,7 +87,7 @@ export default {
           title: "awacha.com",
           sentence: {
             text:
-              "curl によって作成，取得，削除できるウェブアプリケーションです．",
+              "curl によってメモを作成，取得，削除できるウェブアプリケーションです．",
             links: [
               {
                 name: "awacha.com",
