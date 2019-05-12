@@ -83,6 +83,24 @@ export default {
           }
         },
         {
+          media: { webp: "awacha.webp", jpg: "awacha.jpg" },
+          title: "awacha.com",
+          sentence: {
+            text:
+              "curl によって作成，取得，削除できるウェブアプリケーションです．",
+            links: [
+              {
+                name: "awacha.com",
+                url: "https://awacha.com"
+              },
+              {
+                name: "GitHub",
+                url: "https://github.com/iPolyomino/awacha"
+              }
+            ]
+          }
+        },
+        {
           media: { webp: "dtnsim.webp", jpg: "dtnsim.jpg" },
           title: "DTNシミュレータ",
           sentence: {
@@ -201,23 +219,6 @@ export default {
               {
                 name: "チョコレートゲーム",
                 url: "http://chocolategame.jp"
-              }
-            ]
-          }
-        },
-        {
-          media: { webp: "szm_corp.webp", jpg: "szm_corp.jpg" },
-          title: "SZM株式会社",
-          sentence: {
-            text: "架空企業のウェブサイトです．",
-            links: [
-              {
-                name: "公式ウェブサイト",
-                url: "https://szm.netlify.com"
-              },
-              {
-                name: "ソースコード",
-                url: "https://github.com/iPolyomino/szm-corp"
               }
             ]
           }
