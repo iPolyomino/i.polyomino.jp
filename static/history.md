@@ -1,6 +1,12 @@
 
 # やってきたこと
 
+<br>
+
+- 立命館大学で行われた「iPhoneアプリ開発講座」の講師をしました．
+
+- Masanori Fukui, Takeshi Ishikawa, Jo Hagikura and Yuji Sasaki, "The Relationship between Prior Gaming Experience and Consciousness of Computer Programming or Social Views on Information: An Empirical Study of High School Students in Japan"
+
 - SoftBank Technology で行われたインターンシップへ参加しました．  
 [インターンシップ参加ブログ](https://polyomino.hatenablog.jp/entry/2019/03/30/203959)
 
