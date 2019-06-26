@@ -17,4 +17,4 @@
 * iOS programming
 * Fundamental server side settings and programming
 * G Suite application with using Google Apps Script
-* Salesforce Application Development
+* Salesforce application development
