@@ -12,16 +12,12 @@ export default class Node {
   }
   appendConnectedNode(node) {
     if (node.id === this.id) {
-      console.error("cannot append self node.");
-      return;
+      throw new Error("cannot append self node.");
     }
     this.connectedNode.push(node);
   }
   isEqual(node) {
-    if (node.id === this.id) {
-      return true;
-    }
-    return false;
+    return node.id === this.id;
   }
   draw() {
     this.context.beginPath();
