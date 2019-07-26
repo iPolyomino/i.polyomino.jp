@@ -20,10 +20,10 @@ describe("node property test", () => {
     expect(node.connectedNode.length).toBe(1);
   });
 
-    test("compare two nodes", () => {
-        expect(node.isEqual(node)).toBeTruthy();
+  test("compare two nodes", () => {
+    expect(node.isEqual(node)).toBeTruthy();
 
-        const newNode = new Node(null, [50, 60], "newNodeId");
-        expect(node.isEqual(newNode)).toBeFalsy();
-    });
+    const newNode = new Node(null, [50, 60], "newNodeId");
+    expect(node.isEqual(newNode)).toBeFalsy();
+  });
 });
