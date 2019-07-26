@@ -17,10 +17,7 @@ export default class Node {
     this.connectedNode.push(node);
   }
   isEqual(node) {
-    if (node.id === this.id) {
-      return true;
-    }
-    return false;
+    return node.id === this.id;
   }
   draw() {
     this.context.beginPath();
