@@ -19,7 +19,6 @@
 <script>
 import FooterComponent from "~/components/Footer.vue";
 import aboutme from "~/static/aboutme.md";
-import favoriteLanguage from "~/static/favoriteLanguage.md";
 import history from "~/static/history.md";
 
 export default {
@@ -28,7 +27,7 @@ export default {
   },
   computed: {
     aboutme: () => {
-      return [aboutme, favoriteLanguage, history];
+      return [aboutme, history];
     }
   }
 };

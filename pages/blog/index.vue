@@ -23,7 +23,6 @@
 
 <script>
 import FooterComponent from "~/components/Footer.vue";
-import favoriteLanguage from "~/static/favoriteLanguage.md";
 import summary from "~/posts/json/summary.json";
 
 export default {

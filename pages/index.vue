@@ -49,10 +49,6 @@ export default {
               url: "https://twitter.com/iPolyomino"
             },
             {
-              name: "Mastodon ",
-              url: "https://mstdn.jp/@iPolyomino"
-            },
-            {
               name: "GitHub",
               url: "https://github.com/iPolyomino"
             },
