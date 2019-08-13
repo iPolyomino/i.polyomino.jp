@@ -64,12 +64,11 @@ export default {
           media: { webp: "kasgai.webp", png: "kasgai.png" },
           title: "Kasgai",
           sentence: {
-            text:
-              "ビジュアルプログラミング言語と汎用プログラミング言語の橋渡しとなるアプリケーションです．",
+            text: "プログラミング学習アプリケーションです．",
             links: [
               {
                 name: "Kasgai",
-                url: "https://kasgai-com.appspot.com"
+                url: "https://kasgai.com"
               },
               {
                 name: "GitHub",
