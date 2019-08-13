@@ -64,8 +64,7 @@ export default {
           media: { webp: "kasgai.webp", png: "kasgai.png" },
           title: "Kasgai",
           sentence: {
-            text:
-              "プログラミング学習アプリケーションです．",
+            text: "プログラミング学習アプリケーションです．",
             links: [
               {
                 name: "Kasgai",
