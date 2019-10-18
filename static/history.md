@@ -3,9 +3,14 @@
 
 <br>
 
+- 萩倉 丈, 中村 遼, 大崎博之 "［ポスター講演］情報指向ネットワークにおける最適キャッシュ割当に関する検討" 革新的無線通信技術に関する横断型研究会（MIKA）2019 電子情報通信学会
+
+- 萩倉 丈, 中村 遼, 大崎博之 "情報指向ネットワークにおける最適キャッシュ割当に関する一検討" ソサイエティ大会 講演論文集 (B-16-1) 293, 2019 電子情報通信学会
+
 - 立命館大学で行われた「iPhoneアプリ開発講座」の講師をしました．
 
-- Masanori Fukui, Takeshi Ishikawa, Jo Hagikura and Yuji Sasaki, "The Relationship between Prior Gaming Experience and Consciousness of Computer Programming or Social Views on Information: An Empirical Study of High School Students in Japan"
+- Masanori Fukui, Takeshi Ishikawa, Jo Hagikura and Yuji Sasaki, "The Relationship between Prior Gaming Experience and Consciousness of Computer Programming or Social Views on Information: An Empirical Study of High School Students in Japan"  
+[詳細](https://easychair.org/smart-program/DiGRA2019/2019-08-08.html#talk:109047)
 
 - SoftBank Technology で行われたインターンシップへ参加しました．  
 [インターンシップ参加ブログ](https://polyomino.hatenablog.jp/entry/2019/03/30/203959)
