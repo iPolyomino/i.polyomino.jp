@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar app fixed clipped-left dark color="grey">
+  <v-app-bar app clipped-left dark color="grey">
     <v-toolbar-title>
       <nuxt-link class="white--text headline" to="/">polyomino.jp</nuxt-link>
     </v-toolbar-title>
@@ -13,9 +13,9 @@
       v-for="link in links"
       :key="link.title"
     >
-      <v-btn class="headline" flat :to="link.link">{{ link.title }}</v-btn>
+      <v-btn class="headline" :to="link.link">{{ link.title }}</v-btn>
     </v-toolbar-items>
-  </v-toolbar>
+  </v-app-bar>
 </template>
 
 <script>
