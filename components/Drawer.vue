@@ -1,34 +1,22 @@
 <template>
-  <v-navigation-drawer
-    class="hidden-md-and-up"
-    hide-overlay
-    fixed
-    right
-    dark
-    v-model="isOpenDrawer"
-  >
-    <v-toolbar>
-      <v-spacer></v-spacer>
-      <v-toolbar-side-icon
-        class="hidden-md-and-up"
-        @click.stop="toggleDrawer"
-      ></v-toolbar-side-icon>
-      <v-toolbar-items
-        class="hidden-sm-and-down"
+  <v-navigation-drawer absolute right dark temporary v-model="isOpenDrawer">
+    <v-list dense>
+      <v-list-item
+        right
         v-for="link in links"
         :key="link.title"
-      ></v-toolbar-items>
-    </v-toolbar>
-    <v-list>
-      <v-list-tile v-for="link in links" :key="link.title" :href="link.link">{{
-        link.title
-      }}</v-list-tile>
+        :href="link.link"
+      >
+        <v-list-item-content>
+          <v-list-item-title>{{ link.title }}</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
 
 <script>
 export default {
-  props: ["links", "toggleDrawer", "isOpenDrawer"]
+  props: ["links", "isOpenDrawer"]
 };
 </script>

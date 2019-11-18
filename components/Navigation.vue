@@ -1,26 +1,39 @@
 <template>
-  <v-app-bar app clipped-left dark color="grey">
-    <v-toolbar-title>
-      <nuxt-link class="white--text headline" to="/">polyomino.jp</nuxt-link>
-    </v-toolbar-title>
-    <v-spacer></v-spacer>
-    <v-toolbar-side-icon
-      class="hidden-md-and-up"
-      @click.stop="toggleDrawer"
-    ></v-toolbar-side-icon>
-    <v-toolbar-items
-      class="hidden-sm-and-down"
-      v-for="link in links"
-      :key="link.title"
-    >
-      <v-btn class="headline" :to="link.link">{{ link.title }}</v-btn>
-    </v-toolbar-items>
-  </v-app-bar>
+  <v-layout>
+    <v-app-bar app clipped-left dark color="grey">
+      <v-toolbar-title>
+        polyomino.jp
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    </v-app-bar>
+    <v-navigation-drawer fixed right dark temporary v-model="drawer">
+      <v-app-bar app clipped-left dark color="grey">
+        <v-spacer></v-spacer>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      </v-app-bar>
+      <v-list dense>
+        <v-list-item
+          right
+          v-for="link in links"
+          :key="link.title"
+          :href="link.link"
+        >
+          <v-list-item-content>
+            <v-list-item-title>{{ link.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+  </v-layout>
 </template>
 
 <script>
 export default {
-  props: ["links", "toggleDrawer"]
+  data: () => ({
+    drawer: false
+  }),
+  props: ["links"]
 };
 </script>
 
