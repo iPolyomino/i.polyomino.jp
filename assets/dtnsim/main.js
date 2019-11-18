@@ -44,7 +44,10 @@ export default class Main {
 
     // init voronoi diagram
     const voronoi = d3Voronoi();
-    voronoi.extent([[0, 0], [this.width, this.height]]);
+    voronoi.extent([
+      [0, 0],
+      [this.width, this.height]
+    ]);
     // data = [[x, y, id], ...]
     const data = this.nodes.map(node => [...node.coordinate, node.id]);
     this.links = voronoi(data).links();
