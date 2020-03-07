@@ -34,7 +34,7 @@
             <div class="headline">{{ title }}</div>
             <div>{{ sentence.text }}</div>
             <v-btn
-              flat
+              text
               v-for="link in sentence.links"
               :key="link.key"
               color="light-blue"
