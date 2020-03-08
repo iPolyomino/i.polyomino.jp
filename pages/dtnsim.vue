@@ -29,7 +29,7 @@
           </v-card-text>
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary" flat @click="applySettings">Apply</v-btn>
+            <v-btn color="primary" text @click="applySettings">Apply</v-btn>
           </v-card-actions>
         </v-card>
       </v-layout>

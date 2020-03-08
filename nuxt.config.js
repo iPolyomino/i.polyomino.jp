@@ -1,6 +1,8 @@
-const { sourceFileArray } = require("./posts/json/summary.json");
+import colors from "vuetify/es5/util/colors";
+import { sourceFileArray } from "./posts/json/summary.json";
 
-module.exports = {
+export default {
+  mode: "universal",
   /*
    ** Headers of the page
    */
@@ -24,13 +26,11 @@ module.exports = {
       }
     ]
   },
-  css: ["~/assets/style/main.css"],
-  /*
-   ** Customize the progress bar color
-   */
-  modules: ["@nuxtjs/vuetify", "@nuxtjs/markdownit", "@nuxtjs/pwa"],
-  plugins: [{ src: "~/plugins/vue-lazyload", ssr: false }],
   loading: { color: "#03A9F4" },
+  css: ["~/assets/style/main.css"],
+  buildModules: ["@nuxtjs/vuetify"],
+  modules: ["@nuxtjs/markdownit", "@nuxtjs/pwa"],
+  plugins: [{ src: "~/plugins/vue-lazyload", ssr: false }],
   manifest: {
     name: "Hagi",
     short_name: "Hagi",

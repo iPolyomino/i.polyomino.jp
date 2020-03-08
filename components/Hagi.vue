@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-2 my-5 text-xs-center" color="light-blue lighten-5">
+  <v-card class="mx-2 my-5 text-center" color="light-blue lighten-5">
     <svg
       version="1.1"
       id="nameLayer"
