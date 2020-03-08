@@ -1,16 +1,17 @@
 <template>
   <v-content class="main-contents">
     <v-flex xs12 sm10 offset-sm1>
-      <hagi-component />
-      <v-layout row wrap>
+      <v-layout wrap>
+        <v-flex xs12>
+          <hagi-component />
+        </v-flex>
         <v-flex xs12>
           <article-component
             :title="aboutme.title"
             :sentence="aboutme.sentence"
-          >
-          </article-component>
+          ></article-component>
         </v-flex>
-        <v-flex v-for="article in articles" :key="article.title" sm6>
+        <v-flex v-for="article in articles" :key="article.title" xs12 md6>
           <article-component
             :media="article.media"
             :title="article.title"
@@ -21,11 +22,12 @@
           <article-component
             :title="afterword.title"
             :sentence="afterword.sentence"
-          >
-          </article-component>
+          ></article-component>
+        </v-flex>
+        <v-flex xs12>
+          <footer-component />
         </v-flex>
       </v-layout>
-      <footer-component />
     </v-flex>
   </v-content>
 </template>
