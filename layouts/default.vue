@@ -3,12 +3,7 @@
     <v-layout>
       <v-flex xs12>
         <background-component />
-        <navigation-component :links="links" :toggleDrawer="toggleDrawer" />
-        <drawer-component
-          :links="links"
-          :toggleDrawer="toggleDrawer"
-          :isOpenDrawer="isOpenDrawer"
-        />
+        <navigation-component :links="links" />
         <nuxt />
       </v-flex>
     </v-layout>
@@ -18,7 +13,6 @@
 <script>
 import BackgroundComponent from "~/components/Background.vue";
 import NavigationComponent from "~/components/Navigation.vue";
-import DrawerComponent from "~/components/Drawer.vue";
 
 export default {
   data() {
@@ -36,19 +30,12 @@ export default {
           title: "Blog",
           link: "/blog"
         }
-      ],
-      isOpenDrawer: false
+      ]
     };
   },
   components: {
     BackgroundComponent,
-    NavigationComponent,
-    DrawerComponent
-  },
-  methods: {
-    toggleDrawer() {
-      this.isOpenDrawer = !this.isOpenDrawer;
-    }
+    NavigationComponent
   }
 };
 </script>
