@@ -9,21 +9,19 @@
   >
     <v-toolbar>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon
+      <v-app-bar-nav-icon
         class="hidden-md-and-up"
         @click.stop="toggleDrawer"
-      ></v-toolbar-side-icon>
+      ></v-app-bar-nav-icon>
       <v-toolbar-items
         class="hidden-sm-and-down"
         v-for="link in links"
         :key="link.title"
       ></v-toolbar-items>
     </v-toolbar>
-    <v-list>
-      <v-list-tile v-for="link in links" :key="link.title" :href="link.link">{{
-        link.title
-      }}</v-list-tile>
-    </v-list>
+    <v-list-item v-for="link in links" :key="link.title" :href="link.link">
+      <v-list-item-content>{{ link.title }}</v-list-item-content>
+    </v-list-item>
   </v-navigation-drawer>
 </template>
 

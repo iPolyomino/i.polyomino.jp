@@ -1,16 +1,18 @@
 <template>
-  <v-layout>
-    <v-flex xs12>
-      <background-component />
-      <navigation-component :links="links" :toggleDrawer="toggleDrawer" />
-      <drawer-component
-        :links="links"
-        :toggleDrawer="toggleDrawer"
-        :isOpenDrawer="isOpenDrawer"
-      />
-      <nuxt />
-    </v-flex>
-  </v-layout>
+  <v-app>
+    <v-layout>
+      <v-flex xs12>
+        <background-component />
+        <navigation-component :links="links" :toggleDrawer="toggleDrawer" />
+        <drawer-component
+          :links="links"
+          :toggleDrawer="toggleDrawer"
+          :isOpenDrawer="isOpenDrawer"
+        />
+        <nuxt />
+      </v-flex>
+    </v-layout>
+  </v-app>
 </template>
 
 <script>
