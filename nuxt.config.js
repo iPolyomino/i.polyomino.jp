@@ -46,7 +46,6 @@ export default {
    ** Build configuration
    */
   build: {
-    vendor: ["babel-polyfill"],
     /*
      ** Run ESLint on save
      */
