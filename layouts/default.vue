@@ -20,23 +20,23 @@ export default {
       links: [
         {
           title: "Home",
-          link: "/"
+          link: "/",
         },
         {
           title: "About",
-          link: "/aboutme"
+          link: "/aboutme",
         },
         {
           title: "Blog",
-          link: "/blog"
-        }
-      ]
+          link: "/blog",
+        },
+      ],
     };
   },
   components: {
     BackgroundComponent,
-    NavigationComponent
-  }
+    NavigationComponent,
+  },
 };
 </script>
 

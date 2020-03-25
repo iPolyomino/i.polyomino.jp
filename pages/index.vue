@@ -48,18 +48,18 @@ export default {
           links: [
             {
               name: "Twitter",
-              url: "https://twitter.com/iPolyomino"
+              url: "https://twitter.com/iPolyomino",
             },
             {
               name: "GitHub",
-              url: "https://github.com/iPolyomino"
+              url: "https://github.com/iPolyomino",
             },
             {
               name: "Blog",
-              url: "/blog"
-            }
-          ]
-        }
+              url: "/blog",
+            },
+          ],
+        },
       },
       articles: [
         {
@@ -70,14 +70,14 @@ export default {
             links: [
               {
                 name: "Kasgai",
-                url: "https://kasgai.com"
+                url: "https://kasgai.com",
               },
               {
                 name: "GitHub",
-                url: "https://github.com/Kasgai"
-              }
-            ]
-          }
+                url: "https://github.com/Kasgai",
+              },
+            ],
+          },
         },
         {
           media: { webp: "awacha.webp", jpg: "awacha.jpg" },
@@ -88,14 +88,14 @@ export default {
             links: [
               {
                 name: "awacha.com",
-                url: "https://awacha.com"
+                url: "https://awacha.com",
               },
               {
                 name: "GitHub",
-                url: "https://github.com/iPolyomino/awacha"
-              }
-            ]
-          }
+                url: "https://github.com/iPolyomino/awacha",
+              },
+            ],
+          },
         },
         {
           media: { webp: "dtnsim.webp", jpg: "dtnsim.jpg" },
@@ -106,10 +106,10 @@ export default {
             links: [
               {
                 name: "DTNシミュレータ",
-                url: "/dtnsim"
-              }
-            ]
-          }
+                url: "/dtnsim",
+              },
+            ],
+          },
         },
         {
           media: { webp: "kaguya_world.webp", jpg: "kaguya_world.jpg" },
@@ -120,14 +120,14 @@ export default {
             links: [
               {
                 name: "光輝くかぐやの世界",
-                url: "https://www.youtube.com/watch?v=3LsmLCUXDGg"
+                url: "https://www.youtube.com/watch?v=3LsmLCUXDGg",
               },
               {
                 name: "ソースコード",
-                url: "https://github.com/creativeIKEP/ShineKaguyaWorldVR"
-              }
-            ]
-          }
+                url: "https://github.com/creativeIKEP/ShineKaguyaWorldVR",
+              },
+            ],
+          },
         },
         {
           media: { webp: "CasAA.webp", png: "CasAA.png" },
@@ -138,10 +138,10 @@ export default {
             links: [
               {
                 name: "CasAA",
-                url: "https://itunes.apple.com/jp/app/casaa/id1289298193"
-              }
-            ]
-          }
+                url: "https://itunes.apple.com/jp/app/casaa/id1289298193",
+              },
+            ],
+          },
         },
         {
           media: { webp: "TRPG_DICE.webp", png: "TRPG_DICE.png" },
@@ -152,15 +152,15 @@ export default {
             links: [
               {
                 name: "TRPG DICE",
-                url: "https://itunes.apple.com/jp/app/trpg-dice/id1096999521"
-              }
-            ]
-          }
+                url: "https://itunes.apple.com/jp/app/trpg-dice/id1096999521",
+              },
+            ],
+          },
         },
         {
           media: {
             webp: "projection_mapping.webp",
-            jpg: "projection_mapping.jpg"
+            jpg: "projection_mapping.jpg",
           },
           title: "プロジェクションマッピング",
           sentence: {
@@ -170,10 +170,10 @@ export default {
               {
                 name: "プロジェクションマッピング",
                 url:
-                  "http://ist.ksc.kwansei.ac.jp/miwa/miwaLab/kgpm/interactive/"
-              }
-            ]
-          }
+                  "http://ist.ksc.kwansei.ac.jp/miwa/miwaLab/kgpm/interactive/",
+              },
+            ],
+          },
         },
         {
           media: { webp: "pronama_time.webp", jpg: "pronama_time.jpg" },
@@ -184,15 +184,15 @@ export default {
               {
                 name: "プロ生ちゃんの時間！",
                 url:
-                  "https://chrome.google.com/webstore/detail/%E3%83%97%E3%83%AD%E7%94%9F%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E6%99%82%E9%96%93%EF%BC%81/ibjgndcedoonbjahcnhnongfgfelkadm"
-              }
-            ]
-          }
+                  "https://chrome.google.com/webstore/detail/%E3%83%97%E3%83%AD%E7%94%9F%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E6%99%82%E9%96%93%EF%BC%81/ibjgndcedoonbjahcnhnongfgfelkadm",
+              },
+            ],
+          },
         },
         {
           media: {
             webp: "virtual_science_fair.webp",
-            png: "virtual_science_fair.png"
+            png: "virtual_science_fair.png",
           },
           title: "Canada Wide Virtual Science Fair",
           sentence: {
@@ -201,10 +201,10 @@ export default {
             links: [
               {
                 name: "Science Fair",
-                url: "http://www.virtualsciencefair.org/2014/inou14m"
-              }
-            ]
-          }
+                url: "http://www.virtualsciencefair.org/2014/inou14m",
+              },
+            ],
+          },
         },
         {
           media: { webp: "chocolategame.webp", jpg: "chocolategame.jpg" },
@@ -215,19 +215,19 @@ export default {
             links: [
               {
                 name: "チョコレートゲーム",
-                url: "http://chocolategame.jp"
-              }
-            ]
-          }
-        }
+                url: "http://chocolategame.jp",
+              },
+            ],
+          },
+        },
       ],
       afterwords: [
         {
           title: "ポリオミノ(Polyomino)",
           sentence: {
             text:
-              "複数の正方形を辺でつなげた多角形．また，それを長方形など指定の形に隙間なく並べるパズル．"
-          }
+              "複数の正方形を辺でつなげた多角形．また，それを長方形など指定の形に隙間なく並べるパズル．",
+          },
         },
         {
           title: "ほしい物リスト",
@@ -235,18 +235,18 @@ export default {
             links: [
               {
                 name: "買って♥",
-                url: "http://amzn.asia/0XqBHa7"
-              }
-            ]
-          }
-        }
-      ]
+                url: "http://amzn.asia/0XqBHa7",
+              },
+            ],
+          },
+        },
+      ],
     };
   },
   components: {
     HagiComponent,
     ArticleComponent,
-    FooterComponent
-  }
+    FooterComponent,
+  },
 };
 </script>

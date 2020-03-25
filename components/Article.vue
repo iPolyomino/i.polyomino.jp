@@ -54,7 +54,7 @@ export default {
   methods: {
     getImgUrl(img) {
       return require("@/static/image/" + img);
-    }
-  }
+    },
+  },
 };
 </script>
