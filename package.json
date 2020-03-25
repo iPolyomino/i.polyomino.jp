@@ -16,33 +16,31 @@
     "summary": "mkdir -p posts/json && processmd posts/**/*.md --stdout --preview 500 --outputDir posts/json > posts/json/summary.json"
   },
   "dependencies": {
-    "@nuxtjs/markdownit": "^1.2.7",
-    "@nuxtjs/pwa": "^3.0.0-beta.14",
-    "nuxt": "^2.10.2",
+    "@nuxtjs/markdownit": "^1.2.9",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "nuxt": "^2.12.0",
     "processmd": "^4.5.0",
-    "vue": "^2.6.10",
+    "vue": "^2.6.11",
     "vue-lazyload": "^1.3.3",
-    "vue-template-compiler": "^2.6.10",
-    "vuetify": "^2.2.15",
-    "vuetify-loader": "^1.4.3",
-    "webpack": "^4.41.2"
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
     "@nuxtjs/vuetify": "^1.11.0",
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^25.1.0",
     "d3-voronoi": "^1.1.4",
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^3.0.3",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^6.0.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.2",
     "jest": "^25.1.0",
-    "jsdom": "^16.2.0",
-    "prettier": "^1.19.1",
+    "jsdom": "^16.2.1",
+    "prettier": "^2.0.2",
     "vue-jest": "^3.0.5"
   }
 }
