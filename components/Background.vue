@@ -11,7 +11,7 @@ export default {
       "#B75C9D",
       "#9D73BB",
       "#42AAC7",
-      "#40BFB0",
+      "#40BFB0"
     ];
     const cv_id = document.getElementById("backGroundCanvas");
     const ctx = cv_id.getContext("2d");
@@ -45,7 +45,7 @@ export default {
       };
     };
     draw();
-  },
+  }
 };
 </script>
 

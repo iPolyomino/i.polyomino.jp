@@ -36,7 +36,7 @@ export default class Main {
     this.height = canvas.height;
 
     // init nodes
-    this.nodes = [...Array(node).keys()].map((key) => {
+    this.nodes = [...Array(node).keys()].map(key => {
       const x = Math.random() * this.width;
       const y = Math.random() * this.height;
       return new Node(this.context, [x, y], key);
@@ -46,14 +46,14 @@ export default class Main {
     const voronoi = d3Voronoi();
     voronoi.extent([
       [0, 0],
-      [this.width, this.height],
+      [this.width, this.height]
     ]);
     // data = [[x, y, id], ...]
-    const data = this.nodes.map((node) => [...node.coordinate, node.id]);
+    const data = this.nodes.map(node => [...node.coordinate, node.id]);
     this.links = voronoi(data).links();
 
     // node connectionNode update
-    this.links.forEach((link) => {
+    this.links.forEach(link => {
       const sourceIndex = link.source[2];
       const targetIndex = link.target[2];
 
@@ -75,7 +75,7 @@ export default class Main {
     // init agents
     const agentSettings = { range: range, algorithm: algorithm };
     this.agents = [...Array(agent).keys()].map(
-      (_) => new Agent(this.context, agentSettings)
+      _ => new Agent(this.context, agentSettings)
     );
 
     this.agents.forEach((_, index) => {
@@ -97,7 +97,7 @@ export default class Main {
 
     // redraw
     this.graph.draw();
-    this.agents.forEach((agent) => {
+    this.agents.forEach(agent => {
       agent.move();
     });
 

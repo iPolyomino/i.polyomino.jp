@@ -14,17 +14,17 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Hagi's portfolio website.",
-      },
+        content: "Hagi's portfolio website."
+      }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons",
-      },
-    ],
+          "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
+      }
+    ]
   },
   loading: { color: "#03A9F4" },
   css: ["~/assets/style/main.css"],
@@ -40,7 +40,7 @@ export default {
     "og:description": "portfolio website",
     lang: "ja",
     theme_color: "#03A9F4",
-    background_color: "#ffffff",
+    background_color: "#ffffff"
   },
   /*
    ** Build configuration
@@ -55,23 +55,23 @@ export default {
           enforce: "pre",
           test: /\.(js|vue)$/,
           loader: "eslint-loader",
-          exclude: /(node_modules)/,
+          exclude: /(node_modules)/
         });
       }
-    },
+    }
   },
   generate: {
     routes: () => {
-      return sourceFileArray.map((path) => {
+      return sourceFileArray.map(path => {
         const pageTag = path.match(/\d{4}-\d{2}-\d{2}-\d{4}/g);
         if (pageTag.length !== 1) {
           return;
         }
         return {
           route: "/blog/" + pageTag[0],
-          payload: path,
+          payload: path
         };
       });
-    },
-  },
+    }
+  }
 };

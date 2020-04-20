@@ -1,4 +1,4 @@
-export const RandomSelect = (nodes) => {
+export const RandomSelect = nodes => {
   if (nodes.connectedNode.length < 1) {
     throw new Error("This node is independent.");
   }

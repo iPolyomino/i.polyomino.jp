@@ -23,13 +23,13 @@ import history from "~/static/history.md";
 
 export default {
   components: {
-    FooterComponent,
+    FooterComponent
   },
   computed: {
     aboutme: () => {
       return [aboutme, history];
-    },
-  },
+    }
+  }
 };
 </script>
 

@@ -25,24 +25,24 @@ export default {
             links: [
               {
                 name: "Index",
-                url: "/",
+                url: "/"
               },
               {
                 name: "About Me",
-                url: "/aboutme",
+                url: "/aboutme"
               },
               {
                 name: "Blog",
-                url: "/blog",
-              },
-            ],
-          },
-        },
-      ],
+                url: "/blog"
+              }
+            ]
+          }
+        }
+      ]
     };
   },
   components: {
-    WordComponent,
-  },
+    WordComponent
+  }
 };
 </script>

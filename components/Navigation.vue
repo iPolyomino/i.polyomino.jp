@@ -46,9 +46,9 @@ export default {
   props: ["links"],
   data() {
     return {
-      drawer: false,
+      drawer: false
     };
-  },
+  }
 };
 </script>
 
