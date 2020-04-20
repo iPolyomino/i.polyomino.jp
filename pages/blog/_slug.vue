@@ -22,8 +22,8 @@ export default {
   },
   asyncData({ params }) {
     return Object.assign({}, require(`~/posts/json/${params.slug}.json`), {
-      params
+      params,
     });
-  }
+  },
 };
 </script>

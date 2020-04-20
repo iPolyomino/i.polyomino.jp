@@ -42,15 +42,15 @@ import DtnSimulatorComponent from "~/components/DtnSimulator.vue";
 
 export default {
   components: {
-    DtnSimulatorComponent
+    DtnSimulatorComponent,
   },
   data() {
     return {
       settings: {
         node: 20,
         agent: 10,
-        range: 40
-      }
+        range: 40,
+      },
     };
   },
   methods: {
@@ -59,7 +59,7 @@ export default {
         this.settings[key] = parseInt(this.settings[key], 10);
       });
       this.$refs.dtncomp.initMain();
-    }
-  }
+    },
+  },
 };
 </script>

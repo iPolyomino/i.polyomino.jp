@@ -16,11 +16,11 @@ export default class Graph {
   draw() {
     this.context.fillStyle = "#222";
     this.context.fillRect(0, 0, this.width, this.height);
-    this.links.forEach(link => {
+    this.links.forEach((link) => {
       const newPath = new Path(this.context, link.source, link.target);
       newPath.draw();
     });
-    this.nodes.forEach(node => {
+    this.nodes.forEach((node) => {
       node.draw();
     });
   }
