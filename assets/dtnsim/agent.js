@@ -38,7 +38,7 @@ export default class Agent {
     }
     const newCoordinate = [
       this.coordinate[0] + this.unitVector[0],
-      this.coordinate[1] + this.unitVector[1]
+      this.coordinate[1] + this.unitVector[1],
     ];
 
     this.coordinate = newCoordinate;

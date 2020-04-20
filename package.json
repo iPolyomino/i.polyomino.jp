@@ -18,7 +18,7 @@
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.9",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "nuxt": "^2.12.0",
+    "nuxt": "^2.12.2",
     "processmd": "^4.5.0",
     "vue": "^2.6.11",
     "vue-lazyload": "^1.3.3",
@@ -27,20 +27,20 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "@nuxtjs/vuetify": "^1.11.0",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.4.0",
     "d3-voronoi": "^1.1.4",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^3.0.3",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-loader": "^4.0.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-vue": "^6.2.2",
-    "jest": "^25.1.0",
-    "jsdom": "^16.2.1",
-    "prettier": "^2.0.2",
+    "jest": "^25.4.0",
+    "jsdom": "^16.2.2",
+    "prettier": "^2.0.4",
     "vue-jest": "^3.0.5"
   }
 }

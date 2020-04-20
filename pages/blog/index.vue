@@ -27,11 +27,11 @@ import summary from "~/posts/json/summary.json";
 
 export default {
   components: {
-    FooterComponent
+    FooterComponent,
   },
   computed: {
     sortedArticles: () => {
-      const articles = Object.keys(summary.fileMap).map(key => {
+      const articles = Object.keys(summary.fileMap).map((key) => {
         return summary.fileMap[key];
       });
       const compare = (a, b) => {
@@ -40,16 +40,16 @@ export default {
         return 0;
       };
       return articles.sort(compare);
-    }
+    },
   },
   methods: {
-    getUrl: jsonFileName => {
+    getUrl: (jsonFileName) => {
       const url = jsonFileName.match(/\d{4}-\d{2}-\d{2}-\d{4}/g);
       if (url == null || url.length !== 1) {
         return null;
       }
       return `/blog/${url[0]}`;
-    }
-  }
+    },
+  },
 };
 </script>
