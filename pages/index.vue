@@ -44,7 +44,7 @@ export default {
         title: "Hagiについて",
         sentence: {
           text:
-            "へなちょこプログラマ．ウェブサイトの作成やiPhoneアプリの作成をしてきました．ウェブ技術やネットワーク, フリーソフトウェアに興味があります．",
+            "へなちょこプログラマ。ウェブサイトの作成やiPhoneアプリの作成をしてきました。ウェブ技術やネットワーク, フリーソフトウェアに興味があります。",
           links: [
             {
               name: "Twitter",
@@ -55,8 +55,8 @@ export default {
               url: "https://github.com/iPolyomino",
             },
             {
-              name: "Blog",
-              url: "/blog",
+              name: "LinkdIn",
+              url: "https://www.linkedin.com/in/joe-hagikura/",
             },
           ],
         },
@@ -66,15 +66,16 @@ export default {
           media: { webp: "kasgai.webp", png: "kasgai.png" },
           title: "Kasgai",
           sentence: {
-            text: "プログラミング学習アプリケーションです．",
+            text:
+              "プログラミング初学者の Computational thinking スキルを育成するためのウェブアプリケーションです。「Kegaki」「Yattoko」「Kanna」「Shikkui」という 4 つのアプリケーションから構成されています。Shikkui はブロックの操作でウェブサイトを作成することができるというアプリケーションです。",
             links: [
               {
                 name: "Kasgai",
                 url: "https://kasgai.com",
               },
               {
-                name: "Demo Site",
-                url: "https://kasgai-com.appspot.com",
+                name: "shikkui",
+                url: "https://shikkui.kasgai.com",
               },
               {
                 name: "GitHub",
@@ -88,7 +89,7 @@ export default {
           title: "awacha.com",
           sentence: {
             text:
-              "curl によってメモを作成，取得，削除できるウェブアプリケーションです．",
+              "curl によってメモを作成、取得、削除できるウェブアプリケーションです。",
             links: [
               {
                 name: "awacha.com",
@@ -102,11 +103,46 @@ export default {
           },
         },
         {
+          media: { webp: "eva_timer.webp", png: "eva_timer.png" },
+          title: "EVA-TIMER",
+          sentence: {
+            text: "タイマーです。画像は一切用いず、CSS により作られています。",
+            links: [
+              {
+                name: "TIMER",
+                url: "https://timer.polyomino.jp/",
+              },
+              {
+                name: "GitHub",
+                url: "https://github.com/iPolyomino/EVA-TIMER",
+              },
+            ],
+          },
+        },
+        {
+          media: { webp: "voyage.webp", png: "voyage.png" },
+          title: "voyage",
+          sentence: {
+            text:
+              "2018年 8月、VOYAGE GROUP という会社でインターンをしました。右上に終了日からの経過日数が表示されます。",
+            links: [
+              {
+                name: "voyage",
+                url: "https://voyage.polyomino.jp/",
+              },
+              {
+                name: "GitHub",
+                url: "https://github.com/iPolyomino/voyage",
+              },
+            ],
+          },
+        },
+        {
           media: { webp: "dtnsim.webp", jpg: "dtnsim.jpg" },
           title: "DTNシミュレータ",
           sentence: {
             text:
-              "DTN(Delay/Disruption-Tolerant Networking)のシミュレータをJavaScriptにて実装しました．現在，エピデミックブロードキャストのみに対応しています．",
+              "DTN(Delay/Disruption-Tolerant Networking)のシミュレータをJavaScriptにて実装しました。現在、エピデミックブロードキャストのみに対応しています。",
             links: [
               {
                 name: "DTNシミュレータ",
@@ -120,7 +156,7 @@ export default {
           title: "光輝くかぐやの世界",
           sentence: {
             text:
-              "国際学生対抗バーチャルリアリティコンテストにおいて選考を通過し，展示を行いました．かぐや姫の気持ちを体感できるVRゲームを作成しました．この開発はチームでの開発で行い，私はArduinoの制御プログラムを担当しました．",
+              "国際学生対抗バーチャルリアリティコンテストにおいて選考を通過し、展示を行いました。かぐや姫の気持ちを体感できるVRゲームを作成しました。この開発はチームでの開発で行い、私はArduinoの制御プログラムを担当しました。",
             links: [
               {
                 name: "光輝くかぐやの世界",
@@ -138,7 +174,7 @@ export default {
           title: "CasAA",
           sentence: {
             text:
-              "ツイキャスで定型文を送信するiPhoneアプリです．アスキーアート(AA)を投稿することを想定して作りました．",
+              "ツイキャスで定型文を送信するiPhoneアプリです。アスキーアート(AA)を投稿することを想定して作りました。",
             links: [
               {
                 name: "CasAA",
@@ -152,7 +188,7 @@ export default {
           title: "TRPG DICE",
           sentence: {
             text:
-              "TRPGでよく利用する 1D6 や 1D100 といった値を素早く出力ができるアプリです．初めて作ったiPhoneアプリです．",
+              "TRPGでよく利用する 1D6 や 1D100 といった値を素早く出力ができるアプリです。初めて作ったiPhoneアプリです。",
             links: [
               {
                 name: "TRPG DICE",
@@ -169,7 +205,7 @@ export default {
           title: "プロジェクションマッピング",
           sentence: {
             text:
-              "プロジェクションマッピングにおけるインタラクティブパートの作成を行いました．A-Frameを用いたVRゲームです．",
+              "プロジェクションマッピングにおけるインタラクティブパートの作成を行いました。A-Frameを用いたVRゲームです。スマートフォンのジャイロセンサを有効にしてお楽しみください。",
             links: [
               {
                 name: "プロジェクションマッピング",
@@ -183,7 +219,7 @@ export default {
           media: { webp: "pronama_time.webp", jpg: "pronama_time.jpg" },
           title: "プロ生ちゃんの時間！",
           sentence: {
-            text: "Google Chromeの拡張機能です．プロ生ちゃんによる時報です．",
+            text: "Google Chromeの拡張機能です。プロ生ちゃんによる時報です。",
             links: [
               {
                 name: "プロ生ちゃんの時間！",
@@ -201,7 +237,7 @@ export default {
           title: "Canada Wide Virtual Science Fair",
           sentence: {
             text:
-              "Canada Wide Virtual Science Fairへ提出した作品です．チョコレートゲームとヌメロンの研究を行いました．",
+              "Canada Wide Virtual Science Fairへ提出した作品です。チョコレートゲームとヌメロンの研究を行いました。",
             links: [
               {
                 name: "Science Fair",
@@ -215,7 +251,7 @@ export default {
           title: "全国中学高校Webコンテスト",
           sentence: {
             text:
-              "全国中学高校Webコンテストへ提出した作品です．出来る限りシンプルなものになるように意識して作成しました．",
+              "全国中学高校Webコンテストへ提出した作品です。「ニム」というゲームの変種である、「チョコレートゲーム」というゲームについて紹介するウェブサイトです。コンテストでは、金賞を受賞しました。",
             links: [
               {
                 name: "チョコレートゲーム",
@@ -230,7 +266,7 @@ export default {
           title: "ポリオミノ(Polyomino)",
           sentence: {
             text:
-              "複数の正方形を辺でつなげた多角形．また，それを長方形など指定の形に隙間なく並べるパズル．",
+              "複数の正方形を辺でつなげた多角形。また、それを長方形など指定の形に隙間なく並べるパズル。",
           },
         },
         {
