@@ -1,5 +1,5 @@
 <template>
-  <v-content class="main-contents">
+  <v-main>
     <v-flex xs12 sm10 offset-sm1>
       <v-layout wrap>
         <v-flex xs12>
@@ -29,7 +29,7 @@
         </v-flex>
       </v-layout>
     </v-flex>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
@@ -62,6 +62,24 @@ export default {
         },
       },
       articles: [
+        {
+          media: { webp: "supercell.webp", png: "supercell.png" },
+          title: "ちょっとちゃっと",
+          sentence: {
+            text:
+              "ちょっとだけチャットができるアプリケーションです。React(Next.js) + Firebase + GitHub Actions の練習のために作りました。",
+            links: [
+              {
+                name: "ちょっとちゃっと",
+                url: "https://chat.polyomino.jp",
+              },
+              {
+                name: "GitHub",
+                url: "https://github.com/ipolyomino/supercell",
+              },
+            ],
+          },
+        },
         {
           media: { webp: "kasgai.webp", png: "kasgai.png" },
           title: "Kasgai",
@@ -256,6 +274,23 @@ export default {
               {
                 name: "チョコレートゲーム",
                 url: "http://chocolategame.jp",
+              },
+            ],
+          },
+        },
+        {
+          media: { webp: "szm_corp.webp", jpg: "szm_corp.jpg" },
+          title: "SZM株式会社",
+          sentence: {
+            text: "架空企業のウェブサイトです．",
+            links: [
+              {
+                name: "公式ウェブサイト",
+                url: "https://szm.netlify.com",
+              },
+              {
+                name: "ソースコード",
+                url: "https://github.com/iPolyomino/szm-corp",
               },
             ],
           },
