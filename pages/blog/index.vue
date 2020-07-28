@@ -1,5 +1,5 @@
 <template>
-  <v-content class="main-contents">
+  <v-main>
     <v-flex xs12 sm8 offset-sm2>
       <v-card
         color="light-blue lighten-5"
@@ -18,7 +18,7 @@
       </v-card>
       <footer-component />
     </v-flex>
-  </v-content>
+  </v-main>
 </template>
 
 <script>

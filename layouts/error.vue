@@ -1,5 +1,5 @@
 <template>
-  <v-content class="main-contents">
+  <v-main>
     <v-flex xs12 sm10 offset-sm1>
       <v-layout row wrap v-for="article in articles" :key="article.key">
         <v-flex xs12 v-if="article.title == error.statusCode">
@@ -7,7 +7,7 @@
         </v-flex>
       </v-layout>
     </v-flex>
-  </v-content>
+  </v-main>
 </template>
 
 <script>

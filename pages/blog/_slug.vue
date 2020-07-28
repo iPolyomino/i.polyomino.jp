@@ -1,5 +1,5 @@
 <template>
-  <v-content class="main-contents">
+  <v-main>
     <v-flex xs12 sm8 offset-sm2>
       <v-card color="light-blue lighten-5" class="mx-2 my-2">
         <v-container fluid grid-list-lg>
@@ -10,7 +10,7 @@
         </v-container>
       </v-card>
     </v-flex>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
