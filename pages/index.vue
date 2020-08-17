@@ -282,7 +282,7 @@ export default {
           media: { webp: "szm_corp.webp", jpg: "szm_corp.jpg" },
           title: "SZM株式会社",
           sentence: {
-            text: "架空企業のウェブサイトです．",
+            text: "架空企業のウェブサイトです。",
             links: [
               {
                 name: "公式ウェブサイト",

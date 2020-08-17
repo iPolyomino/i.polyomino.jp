@@ -2,6 +2,9 @@
 
 ## 職歴、インターン歴など
 
+- 2020 年 9 月 ~ 12 月　関西学院高等部で「楽しい数学」という授業の非常勤講師を
+  します。
+- 2020 年 8 月 DeNA で行われるインターンシップに参加します。
 - 2019 年 5 月 ~ 6 月 立命館大学で行われた「iPhone アプリ開発講座」の講師をしました。
 - SoftBank Technology で行われたインターンシップへ参加しました。  
   [インターンシップ参加ブログ](https://polyomino.hatenablog.jp/entry/2019/03/30/203959)
@@ -19,10 +22,27 @@
 
 ### 情報指向ネットワーク
 
-- Jo Hagikura, Ryo Nakamura, Hiroyuki Ohsaki \`\`A Study on Optimal Cache Provisioning in Information-Centric Networking'' IA2019 - Workshop on Internet Architecture and Applications 2019  
-  [詳細](https://www.ieice.org/ken/program/index.php?tgs_regid=a6d58e6b6b136c227b82da0b329d167f6364603b76948bc2fc70c2258b0bd4b6&lang=eng)
-- 萩倉 丈, 中村 遼, 大崎博之 \`\`［ポスター講演］情報指向ネットワークにおける最適キャッシュ割当に関する検討'' 革新的無線通信技術に関する横断型研究会（MIKA）2019 電子情報通信学会
-- 萩倉 丈, 中村 遼, 大崎博之 \`\`情報指向ネットワークにおける最適キャッシュ割当に関する一検討'' ソサイエティ大会 講演論文集 (B-16-1) 293, 2019 電子情報通信学会
+萩倉 丈, 大崎 博之 \`\`情報指向分断耐性ネットワークにおけるランダムウォーク型ルーティ
+ングの特性に関する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16)
+
+萩倉 丈, 中村 遼, 大崎 博之 \`\`情報指向ネットワークにおけるルータへの最適キャッシュ割当に関
+する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16)
+
+Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`On the Optimal Cache Allocation in Information-Centric
+Networking'' Proceedings of the 8th International Workshop on
+Architecture, Design, Deployment & Management of Networks
+& Applications (ADMNET 2020)
+
+Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`A Study on Optimal Cache Provisioning in Information-Centric Networking'' IA2019 - Workshop on Internet Architecture and Applications 2019  
+ [詳細](https://www.ieice.org/ken/program/index.php?tgs_regid=a6d58e6b6b136c227b82da0b329d167f6364603b76948bc2fc70c2258b0bd4b6&lang=eng)
+
+萩倉 丈, 中村 遼, 大崎博之 \`\`［ポスター講演］情報指向ネットワークにおける最適キャッシュ割当に関する検討'' 革新的無線通信技術に関する横断型研究会（MIKA）2019 電子情報通信学会
+
+萩倉 丈, 中村 遼, 大崎 博之 \`\`情報指向ネットワークにおけるルータへのキャッシュ割当に関する
+一検討'' インターネット技術第 163 委員会 新世代ネットワーク構築のため
+の基盤技術研究分科会ワークショップ (ITRC-NWGN2019)
+
+萩倉 丈, 中村 遼, 大崎博之 \`\`情報指向ネットワークにおける最適キャッシュ割当に関する一検討'' ソサイエティ大会 講演論文集 (B-16-1) 293, 2019 電子情報通信学会
 
 ### プログラミング教育
 
