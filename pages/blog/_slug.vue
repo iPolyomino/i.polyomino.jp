@@ -27,3 +27,18 @@ export default {
   },
 };
 </script>
+
+<style>
+li > p {
+  margin-bottom: 8px !important;
+  margin-top: 16px;
+}
+img {
+  max-width: 640px;
+  width: 100%;
+  height: auto;
+}
+pre {
+  background-color: #fbe5e1;
+}
+</style>
