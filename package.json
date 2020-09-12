@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.10",
-    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/pwa": "^3.0.2",
     "nuxt": "^2.14.0",
     "processmd": "^4.5.0",
     "vue": "^2.6.11",
