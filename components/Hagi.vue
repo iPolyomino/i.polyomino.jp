@@ -8,7 +8,7 @@
       x="0px"
       y="0px"
       viewBox="0 0 1920 1080"
-      style="enable-background: new 0 0 1920 1080;"
+      style="enable-background: new 0 0 1920 1080"
       xml:space="preserve"
     >
       <g>
