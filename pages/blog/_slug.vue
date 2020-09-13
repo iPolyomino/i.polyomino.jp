@@ -33,7 +33,7 @@ li > p {
   margin-bottom: 8px !important;
   margin-top: 16px;
 }
-img {
+p > img {
   max-width: 640px;
   width: 100%;
   height: auto;
