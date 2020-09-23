@@ -2,7 +2,6 @@ import colors from "vuetify/es5/util/colors";
 import { sourceFileArray } from "./posts/json/summary.json";
 
 export default {
-  mode: "universal",
   /*
    ** Headers of the page
    */
