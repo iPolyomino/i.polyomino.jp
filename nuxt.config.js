@@ -2,7 +2,6 @@ import colors from "vuetify/es5/util/colors";
 import { sourceFileArray } from "./posts/json/summary.json";
 
 export default {
-  mode: "universal",
   /*
    ** Headers of the page
    */
@@ -61,6 +60,7 @@ export default {
     },
   },
   generate: {
+    fallback: true,
     routes: () => {
       return sourceFileArray.map((path) => {
         const pageTag = path.match(/\d{4}-\d{2}-\d{2}-\d{4}/g);

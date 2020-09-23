@@ -13,31 +13,30 @@ Currently, I'm studying large scale networking.
 [GitHub](https://github.com/iPolyomino)
 [Twitter](https://twitter.com/iPolyomino)
 [LinkedIn](https://www.linkedin.com/in/joe-hagikura/)
-[はてなブログ](https://polyomino.hatenablog.jp/)
 
 # Keywords
 
-* World Wide Web
-* Free Software
-* Large-Scale Networking
+- World Wide Web
+- Free Software
+- Large-Scale Networking
 
 # Membership of Academic Societies
 
-* 2019 - present, IEEE. Member.
-* 2019 - present, IEICE. Member.
-* 2016 - 2018, IPSJ. Junior Member.
+- 2019 - present, IEEE. Member.
+- 2019 - present, IEICE. Member.
+- 2016 - 2018, IPSJ. Junior Member.
 
 # My favorite programming languages
 
-* JavaScript
-* Python
-* Go
-* Rust
+- JavaScript
+- Python
+- Go
+- Rust
 
 # My skills
 
-* Front-end web development
-* iOS programming
-* Fundamental server side settings and programming
-* G Suite application with using Google Apps Script
-* Salesforce application development
+- Front-end web development
+- iOS programming
+- Fundamental server side settings and programming
+- G Suite application with using Google Apps Script
+- Salesforce application development
