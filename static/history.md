@@ -23,11 +23,16 @@
 
 ### 情報指向ネットワーク
 
+Jo HAGIKURA, and Hiroyuki OHSAKI \`\`A Study on Random-Walk-Based Content
+Routing in Information-Centric Delay/Disruption-Tolerant Networking'' IA2020 -
+Workshop on Internet Architecture and Applications 2020  
+[詳細](https://www.ieice.org/~ia/IA2020/wiki.cgi?page=FrontPage)
+
 萩倉 丈, 大崎 博之 \`\`情報指向分断耐性ネットワークにおけるランダムウォーク型ルーティ
-ングの特性に関する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16)
+ングの特性に関する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16-1) 211, 2020 電子情報通信学会
 
 萩倉 丈, 中村 遼, 大崎 博之 \`\`情報指向ネットワークにおけるルータへの最適キャッシュ割当に関
-する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16)
+する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16-5) 215, 2020 電子情報通信学会
 
 Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`On the Optimal Cache Allocation in Information-Centric
 Networking'' Proceedings of the 8th International Workshop on
