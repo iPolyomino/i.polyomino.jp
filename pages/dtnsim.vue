@@ -1,40 +1,44 @@
 <template>
-  <v-content class="main-contents">
+  <v-main>
     <v-flex xs12 sm10 offset-sm1>
-      <v-layout class="mx-2 my-2">
-        <dtn-simulator-component :settings="settings" ref="dtncomp" />
-        <v-card>
-          <v-card-text>
-            <v-text-field
-              label="node"
-              v-model="settings.node"
-              type="number"
-            ></v-text-field>
-          </v-card-text>
-          <v-card-text>
-            <v-text-field
-              label="agent"
-              v-model="settings.agent"
-              :min="1"
-              type="number"
-            ></v-text-field>
-          </v-card-text>
-          <v-card-text>
-            <v-text-field
-              label="range"
-              v-model="settings.range"
-              :min="10"
-              type="number"
-            ></v-text-field>
-          </v-card-text>
-          <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-btn color="primary" text @click="applySettings">Apply</v-btn>
-          </v-card-actions>
-        </v-card>
+      <v-layout class="mx-2 my-2" wrap>
+        <v-flex xs12 md8>
+          <dtn-simulator-component :settings="settings" ref="dtncomp" />
+        </v-flex>
+        <v-flex xs12 md4>
+          <v-card>
+            <v-card-text>
+              <v-text-field
+                label="node"
+                v-model="settings.node"
+                type="number"
+              ></v-text-field>
+            </v-card-text>
+            <v-card-text>
+              <v-text-field
+                label="agent"
+                v-model="settings.agent"
+                :min="1"
+                type="number"
+              ></v-text-field>
+            </v-card-text>
+            <v-card-text>
+              <v-text-field
+                label="range"
+                v-model="settings.range"
+                :min="10"
+                type="number"
+              ></v-text-field>
+            </v-card-text>
+            <v-card-actions>
+              <v-spacer></v-spacer>
+              <v-btn color="primary" text @click="applySettings">Apply</v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-flex>
       </v-layout>
     </v-flex>
-  </v-content>
+  </v-main>
 </template>
 
 <script>
@@ -63,3 +67,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+canvas.canvas {
+  width: 100%;
+}
+</style>
