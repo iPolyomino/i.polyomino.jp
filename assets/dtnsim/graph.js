@@ -1,5 +1,4 @@
 import Path from "~/assets/dtnsim/path.js";
-import Node from "~/assets/dtnsim/node.js";
 
 export default class Graph {
   constructor(context, width = 800, height = 600, nodes = [], links = []) {
