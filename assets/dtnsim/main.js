@@ -123,6 +123,12 @@ export default class Main {
     }
 
     // information
+    const deliverd = this.agents.filter((agent) => agent.isDelivered).length;
+    this.information.deliverd = deliverd;
+    if (deliverd === this.agents.length && this.information.endTime === null) {
+      this.information.end();
+    }
+
     this.information.time++;
     this.information.draw();
 

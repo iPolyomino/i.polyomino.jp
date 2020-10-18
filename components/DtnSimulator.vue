@@ -24,9 +24,3 @@ export default {
   },
 };
 </script>
-
-<style>
-canvas.canvas {
-  border: 1px solid green;
-}
-</style>
