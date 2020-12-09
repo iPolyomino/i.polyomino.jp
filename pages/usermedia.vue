@@ -17,7 +17,6 @@
 export default {
   data() {
     return {
-      intervalRef: null,
       isRearCamera: true,
     };
   },
@@ -36,10 +35,6 @@ export default {
 
   async mounted() {
     await this.setCameraSrc();
-  },
-
-  unmounted() {
-    clearInterval(this.intervalRef);
   },
 };
 </script>
