@@ -23,7 +23,7 @@
     "vue": "^2.6.12",
     "vue-lazyload": "^1.3.3",
     "vue-template-compiler": "^2.6.12",
-    "webpack": "^4.44.2"
+    "webpack": "^5.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
