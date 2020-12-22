@@ -2,9 +2,25 @@
   <v-card class="mx-2 my-2">
     <v-card-title>{{ morse[index].letter }}</v-card-title>
     <v-card-subtitle>{{ morse[index].phonetic }}</v-card-subtitle>
-    <div :class="color()">
-      <v-card-text v-html="code" class="morse preview"></v-card-text>
-    </div>
+    <v-container :class="color()" class="">
+      <v-row no-gutters>
+        <v-col cols="9">
+          <v-card-text v-html="code" class="morse preview"></v-card-text>
+        </v-col>
+        <v-col cols="3">
+          <v-card-actions>
+            <v-btn
+              :disabled="isCorrect !== null"
+              class="ma-2"
+              text
+              @click="clearCode"
+            >
+              <v-icon left>cancel</v-icon>
+            </v-btn>
+          </v-card-actions>
+        </v-col>
+      </v-row>
+    </v-container>
     <v-card-text class=""></v-card-text>
     <v-card-actions>
       <v-btn
@@ -22,15 +38,6 @@
         >&ndash;</v-btn
       >
       <v-spacer></v-spacer>
-      <v-btn
-        x-large
-        :disabled="isCorrect !== null"
-        class="ma-2"
-        text
-        @click="clearCode"
-      >
-        <v-icon left>cancel</v-icon>
-      </v-btn>
       <v-btn x-large color="primary" @click="answer">OK</v-btn>
     </v-card-actions>
   </v-card>
