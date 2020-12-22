@@ -74,7 +74,7 @@ export default {
       this.code = "";
     },
     encode(code) {
-      return code.replaceAll(".", this.dit).replaceAll("-", this.dah);
+      return code.replace(/\./g, this.dit).replace(/-/g, this.dah);
     },
     answer() {
       if (this.isCorrect === null) {

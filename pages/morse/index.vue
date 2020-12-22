@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     encode(code) {
-      return code.replaceAll(".", this.dit).replaceAll("-", this.dah);
+      return code.replace(/\./g, this.dit).replace(/-/g, this.dah);
     },
   },
 };
