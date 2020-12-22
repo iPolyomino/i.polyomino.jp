@@ -53,7 +53,7 @@ export default {
       dit: "&bull;",
       dah: "&ndash;",
       isCorrect: null,
-      index: 1,
+      index: Math.floor(Math.random() * morse.length),
       morse: morse,
     };
   },
