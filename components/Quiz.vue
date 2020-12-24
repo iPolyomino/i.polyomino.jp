@@ -102,15 +102,15 @@ export default {
   mounted() {
     let downTime = null;
     document.onkeydown = (e) => {
-      // backspace key
+      // Backspace key
       if (e.keyCode === 8 && this.isCorrect === null) {
         this.clearCode();
       }
-      // enter key
+      // Enter key
       if (e.keyCode === 13) {
         this.answer();
       }
-      // space key
+      // Space bar
       if (e.keyCode === 32 && downTime === null) {
         downTime = Date.now();
       }
