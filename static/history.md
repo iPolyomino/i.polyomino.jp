@@ -3,7 +3,7 @@
 ## 職歴、インターン歴など
 
 - 2020 年 9 月 ~ 12 月　関西学院高等部で「楽しい数学」という授業の非常勤講師を
-  します。
+  しました。
 - 2020 年 8 月 DeNA で行われるインターンシップに参加しました。  
   [インターンシップ参加ブログ](/blog/2020-09-12-0001/)
 - 2019 年 5 月 ~ 6 月 立命館大学で行われた「iPhone アプリ開発講座」の講師をしました。
@@ -54,6 +54,9 @@ Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`A Study on Optimal Cache Provi
 
 #### 査読付き国際会議
 
+Yuji Sasaki, Masanori Fukui, Jo Hagikura, Jun Moriyama, and Tsukasa Hirashima,
+Development of an Interactive Educational Tool to Experience Machine Learning with Image Classification, IEEE 9th Global Conference on Consumer Electronics (GCCE 2020), Kobe, Japan, October 2020.
+
 Masanori Fukui, Jo Hagikura, Yuji Sasaki, Jun Moriyama, Yusuke Hayashi and Tsukasa Hirashima,
 Development of a Visual Programming Environment that Enables Simultaneous Editing to Promote Collaborative Learning, Business Innovation and Engineering Conference (BIEC 2020), Bogor, Indonesia, accepted.
 
@@ -94,7 +97,7 @@ https://www.ciec.or.jp/media/004/201804/Vol43review.pdf
 福井 昌則, 青木 徹, 萩倉 丈, 佐々木 雄司, 黒田 昌克, 平嶋 宗, 森山 潤,
 実装形態の差異に着目した大学生対象スマートフォンアプリ開発の試行的実践, 兵庫教育大学学校教育学研究, Vol.31, pp.135--143, 2018.
 
-#### 査読付き国内学会発表
+#### 査読付き国内発表
 
 佐々木 雄司, 福井 昌則, 萩倉 丈, 森山 潤, 平嶋 宗,
 コンピュテーショナルシンキングの概念の一つであるアルゴリズム的思考を育成する Yes/No チャート学習システムの効果, 第 155 回 情報処理学会 コンピュータと教育研究会, (オンライン開催), 2020/6/6,7.
@@ -103,7 +106,7 @@ https://www.ciec.or.jp/media/004/201804/Vol43review.pdf
 数学的要素を持つゲーム・パズルを題材とした創造性の分析, The 23nd Game Programming Workshop 2018, pp.80--86, 2018. 箱根. (査読付き)
 http://www.ipsj.or.jp/sig/gi/gpw/2018/program2018.pdf
 
-#### 査読なし国内学会発表
+#### 査読なし国内発表
 
 萩倉 丈, 福井 昌則, 佐々木 雄司, 平嶋 宗, 森山 潤,
 協働学習を促進する同時編集機能を実装したブロックプログラミング環境の開発, 第 63 回日本産業技術教育学会全国大会, 2020. オンライン開催.
@@ -118,7 +121,7 @@ http://www.ipsj.or.jp/sig/gi/gpw/2018/program2018.pdf
 Computational Thinking を育成することを目的とした ゲームアプリケーション \`\`Deliver Box''の開発とその利用方法についての提案, 第 18 回ゲーム学会全国大会, 2019. 大阪.
 
 佐々木 雄司, 萩倉 丈, 福井 昌則, 平嶋 宗,
-コンピュテーショナルシンキングを育成するパズルゲームアプリケーション DeliverBox の開発, 第 4 回国際 ICT 利用教育学会 全国大会, 2019, 大阪.
+コンピュテーショナルシンキングを育成するパズルゲームアプリケーション Deliver Box の開発, 第 4 回国際 ICT 利用教育学会 全国大会, 2019, 大阪.
 
 福井 昌則, 佐々木 雄司, 萩倉 丈, 青木 徹, 宮寺 良平, 平嶋 宗, ゲーム・パズルの言い換えを用いた創造性を育成する作問学習教材の提案, ゲーム学会第 17 回合同研究会, 2019, 香川.
 
