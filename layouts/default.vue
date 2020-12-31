@@ -31,8 +31,8 @@ export default {
           link: "/blog",
         },
         {
-          title: "Ham",
-          link: "/ham",
+          title: "Hobby",
+          link: "/hobby",
         },
       ],
     };
