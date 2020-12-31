@@ -1,4 +1,3 @@
-import colors from "vuetify/es5/util/colors";
 import { sourceFileArray } from "./posts/json/summary.json";
 
 export default {
@@ -59,6 +58,7 @@ export default {
       }
     },
   },
+  target: "static",
   generate: {
     fallback: true,
     routes: () => {
