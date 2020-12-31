@@ -30,6 +30,10 @@ export default {
           title: "Blog",
           link: "/blog",
         },
+        {
+          title: "Ham",
+          link: "/ham",
+        },
       ],
     };
   },
