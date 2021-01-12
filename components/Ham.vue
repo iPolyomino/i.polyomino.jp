@@ -2,7 +2,7 @@
   <v-card color="light-blue lighten-5" class="mx-2 my-2">
     <v-container>
       <h1>Amateur Radio</h1>
-      <p>My status: Waiting for call sign</p>
+      <p>My call sign: JQ3CJL</p>
       <hr />
       <h2>Information</h2>
       <h3>Licence</h3>
