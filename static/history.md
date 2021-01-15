@@ -54,6 +54,8 @@ Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`A Study on Optimal Cache Provi
 
 #### 査読付き国際会議
 
+Masanori Fukui, Jo Hagikura, Yuji Sasaki, Tsukasa Hirashima, Yoshifumi Yamashita, Masakatsu Kuroda, and Jun Moriyama, Development of a Block Programming Environment that Enables the Creation of Web Contents using HTML and JavaScript, The International Conference on Technology Education in the Asia-Pacific Region 2021 (ICTE 2021), accepted.
+
 Yuji Sasaki, Masanori Fukui, Jo Hagikura, Jun Moriyama, and Tsukasa Hirashima,
 Development of an Interactive Educational Tool to Experience Machine Learning with Image Classification, IEEE 9th Global Conference on Consumer Electronics (GCCE 2020), Kobe, Japan, October 2020.
 
@@ -80,6 +82,8 @@ http://icce2018.ateneo.edu/index.php/accepted-papers/
 
 #### 査読付き国内論文
 
+福井 昌則, 佐々木 雄司, 萩倉 丈, 林 雄介, 平嶋 宗, Computational Thinking を育成する組み立て式ベン図・Yes/No チャート学習システム環境の設計・開発および評価, 人工知能学会論文誌, 35(6), pp.1--13, 2020.
+
 佐々木 雄司, 萩倉 丈, 福井 昌則, 平嶋 宗,
 Computational Thinking 育成を指向した Playground ゲームアプリケーション「Deliver Box」の開発, コンピュータ利用教育学会「コンピュータ&エデュケーション」, 48, pp.98--99, 2020.
 
@@ -93,6 +97,8 @@ https://www.jstage.jst.go.jp/article/konpyutariyoukyouiku/45/0/45_48/_pdf/-char/
 https://www.ciec.or.jp/media/004/201804/Vol43review.pdf
 
 #### 査読なし国内論文
+
+佐々木 雄司, 萩倉 丈, 福井 昌則, 平嶋 宗, 森山 潤, 画像分類を題材とする機械学習を体験できる iPad アプリケーションの開発, 日本産業技術教育学会 技術教育分科会 2020 年度研究発表会, 2020.12.19.
 
 福井 昌則, 青木 徹, 萩倉 丈, 佐々木 雄司, 黒田 昌克, 平嶋 宗, 森山 潤,
 実装形態の差異に着目した大学生対象スマートフォンアプリ開発の試行的実践, 兵庫教育大学学校教育学研究, Vol.31, pp.135--143, 2018.
