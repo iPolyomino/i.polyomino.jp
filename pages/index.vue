@@ -178,7 +178,7 @@ export default {
             links: [
               {
                 name: "光輝くかぐやの世界",
-                url: "https://www.youtube.com/watch?v=3LsmLCUXDGg",
+                url: "https://youtu.be/aMr8SQYSCio",
               },
               {
                 name: "ソースコード",
