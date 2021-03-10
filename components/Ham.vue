@@ -26,10 +26,10 @@
       <h2>Learning</h2>
       <ul>
         <li>
-          <router-link to="morse">Morse code</router-link>
+          <router-link to="/morse">Morse code</router-link>
         </li>
         <li>
-          <router-link to="morse/quiz">Morse code quiz</router-link>
+          <router-link to="/morse/quiz">Morse code quiz</router-link>
         </li>
       </ul>
     </v-container>
