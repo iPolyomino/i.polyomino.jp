@@ -6,7 +6,7 @@
       <hr />
       <h2>Information</h2>
       <h3>Licence</h3>
-      <p>Amateur Fourth-Class Radio Operator</p>
+      <p>Amateur Third-Class Radio Operator in Japan</p>
       <h3>Transceiver</h3>
       <ul>
         <li>
@@ -21,6 +21,7 @@
       <h3>Antenna</h3>
       <ul>
         <li>SRH789</li>
+        <li>SRH771</li>
         <li>SRH805S</li>
       </ul>
       <h2>Learning</h2>
