@@ -110,6 +110,19 @@
       }
     },
     {
+      "media": { "webp": "lsnl.webp", "png": "lsnl.png" },
+      "title": "Network Architecture Laboratory",
+      "sentence": {
+        "text": "私が研究室で先生から教えてもらったことをまとめています。研究に関係することのみならず、生き方や考え方、議論のしかたまで多岐にわたります。",
+        "links": [
+          {
+            "name": "lsnl",
+            "url": "https://lsnl.polyomino.jp/"
+          }
+        ]
+      }
+    },
+    {
       "media": { "webp": "dtnsim.webp", "jpg": "dtnsim.jpg" },
       "title": "DTNシミュレータ",
       "sentence": {
@@ -219,6 +232,19 @@
           {
             "name": "チョコレートゲーム",
             "url": "http://chocolategame.jp"
+          }
+        ]
+      }
+    },
+    {
+      "media": { "webp": "toranosuke.webp", "png": "toranosuke.png" },
+      "title": "とらのすけ - toranosuke",
+      "sentence": {
+        "text": "複数の翻訳サイトで翻訳した結果を表示するウェブサイトを作る予定でした。（製作中止）",
+        "links": [
+          {
+            "name": "toranosuke",
+            "url": "https://next.polyomino.jp/"
           }
         ]
       }
