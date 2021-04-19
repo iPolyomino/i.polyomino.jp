@@ -2,7 +2,7 @@
   "aboutme": {
     "title": "Hagiについて",
     "sentence": {
-      "text": "エンジニア。Webフロントエンドの技術が得意です。経験としては、オンプレミスのHTTP サーバの設定や Google Cloud Platform、Firebase を利用した アプリケーションの作成もしたことがあります。Web 以外では、iPhoneアプリの作成やRaspberry Piを用いた電子工作などもしてきました。研究分野として、情報指向ネットワークとプログラミング教育があります。趣味は、旅行、写真撮影、アマチュア無線など。",
+      "text": "エンジニア。Webフロントエンドの技術が得意です。基礎的な HTML や CSS、JavaScript はもちろん、React や Vue.js を利用した開発の経験があります。このウェブサイトは、Vue.js(NuxtJS) で作られています。フロントエンド以外の経験としては、オンプレミスのHTTP サーバの設定や Google Cloud Platform、Firebase を利用した アプリケーションの作成もしたことがあります。Web 以外では、iPhoneアプリの作成やRaspberry Piを用いた電子工作などもしてきました。研究分野として、情報指向ネットワークとプログラミング教育があります。趣味は、旅行、写真撮影、アマチュア無線など。",
       "links": [
         {
           "name": "Twitter",
