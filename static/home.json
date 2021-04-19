@@ -2,7 +2,7 @@
   "aboutme": {
     "title": "Hagiについて",
     "sentence": {
-      "text": "エンジニア。Webフロントエンドの技術が得意です。経験としては、オンプレミスのHTTP サーバの設定や Google Cloud Platform、Firebase を利用した アプリケーションの作成もしたことがあります。Web 以外では、iPhoneアプリの作成やRaspberry Piを用いた電子工作などもしてきました。研究分野として、情報指向ネットワークとプログラミング教育があります。趣味は、旅行、写真撮影、アマチュア無線など。",
+      "text": "エンジニア。Webフロントエンドの技術が得意です。基礎的な HTML や CSS、JavaScript はもちろん、React や Vue.js を利用した開発の経験があります。このウェブサイトは、Vue.js(NuxtJS) で作られています。フロントエンド以外の経験としては、オンプレミスのHTTP サーバの設定や Google Cloud Platform、Firebase を利用した アプリケーションの作成もしたことがあります。Web 以外では、iPhoneアプリの作成やRaspberry Piを用いた電子工作などもしてきました。研究分野として、情報指向ネットワークとプログラミング教育があります。趣味は、旅行、写真撮影、アマチュア無線など。",
       "links": [
         {
           "name": "Twitter",
@@ -105,6 +105,19 @@
           {
             "name": "GitHub",
             "url": "https://github.com/iPolyomino/voyage"
+          }
+        ]
+      }
+    },
+    {
+      "media": { "webp": "lsnl.webp", "png": "lsnl.png" },
+      "title": "Network Architecture Laboratory",
+      "sentence": {
+        "text": "私が研究室で先生から教えてもらったことをまとめています。研究に関係することのみならず、生き方や考え方、議論のしかたまで多岐にわたります。",
+        "links": [
+          {
+            "name": "lsnl",
+            "url": "https://lsnl.polyomino.jp/"
           }
         ]
       }
@@ -219,6 +232,19 @@
           {
             "name": "チョコレートゲーム",
             "url": "http://chocolategame.jp"
+          }
+        ]
+      }
+    },
+    {
+      "media": { "webp": "toranosuke.webp", "png": "toranosuke.png" },
+      "title": "とらのすけ - toranosuke",
+      "sentence": {
+        "text": "「複数の翻訳サイトで翻訳した結果を表示するウェブサイト」を作る予定でした。（製作中止）",
+        "links": [
+          {
+            "name": "toranosuke",
+            "url": "https://next.polyomino.jp/"
           }
         ]
       }
