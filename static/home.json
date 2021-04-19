@@ -240,7 +240,7 @@
       "media": { "webp": "toranosuke.webp", "png": "toranosuke.png" },
       "title": "とらのすけ - toranosuke",
       "sentence": {
-        "text": "複数の翻訳サイトで翻訳した結果を表示するウェブサイトを作る予定でした。（製作中止）",
+        "text": "「複数の翻訳サイトで翻訳した結果を表示するウェブサイト」を作る予定でした。（製作中止）",
         "links": [
           {
             "name": "toranosuke",
