@@ -22,9 +22,10 @@ Currently, I'm studying large scale networking.
 
 # Membership of Academic Societies
 
+- 2020 - present, The Japan Society of Technology Education(JSTE). Member.
 - 2019 - present, IEEE. Member.
-- 2019 - present, IEICE. Member.
-- 2016 - 2018, IPSJ. Junior Member.
+- 2019 - present, The Institute of Electronics, Information and Communication Engineers(IEICE). Member.
+- 2016 - 2018, Information Processing Society of Japan(IPSJ). Junior Member.
 
 # My favorite programming languages
 
