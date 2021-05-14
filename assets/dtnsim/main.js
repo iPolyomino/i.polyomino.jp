@@ -80,9 +80,8 @@ export default class Main {
 
     this.agents.forEach((_, index) => {
       // agents start from node
-      const startNode = this.nodes[
-        Math.floor(this.nodes.length * Math.random())
-      ];
+      const startNode =
+        this.nodes[Math.floor(this.nodes.length * Math.random())];
       this.agents[index].initStartNode(startNode);
     });
 
