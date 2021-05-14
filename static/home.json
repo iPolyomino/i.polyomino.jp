@@ -21,7 +21,11 @@
   },
   "articles": [
     {
-      "media": { "webp": "supercell.webp", "png": "supercell.png" },
+      "media": {
+        "webp": "supercell.webp",
+        "png": "supercell.png",
+        "alt": "2005年を彷彿とさせるチャットアプリケーションのスクリーンショット"
+      },
       "title": "ちょっとちゃっと",
       "sentence": {
         "text": "ちょっとだけチャットができるアプリケーションです。React(Next.js) + Firebase + GitHub Actions の練習のために作りました。",
@@ -38,7 +42,11 @@
       }
     },
     {
-      "media": { "webp": "kasgai.webp", "png": "kasgai.png" },
+      "media": {
+        "webp": "kasgai.webp",
+        "png": "kasgai.png",
+        "alt": "ブロックプログラミング環境 「かすがい」のスクリーンショット"
+      },
       "title": "Kasgai",
       "sentence": {
         "text": "プログラミング初学者の Computational thinking スキルを育成するためのウェブアプリケーションです。「Kegaki」「Yattoko」「Kanna」「Shikkui」という 4 つのアプリケーションから構成されています。Shikkui はブロックの操作でウェブサイトを作成することができるというアプリケーションです。",
@@ -59,7 +67,11 @@
       }
     },
     {
-      "media": { "webp": "awacha.webp", "jpg": "awacha.jpg" },
+      "media": {
+        "webp": "awacha.webp",
+        "jpg": "awacha.jpg",
+        "alt": "装飾のない白い背景に黒い文字が書かれたウェブサイト awacha.com のスクリーンショット"
+      },
       "title": "awacha.com",
       "sentence": {
         "text": "curl によってメモを作成、取得、削除できるウェブアプリケーションです。",
@@ -76,7 +88,11 @@
       }
     },
     {
-      "media": { "webp": "eva_timer.webp", "png": "eva_timer.png" },
+      "media": {
+        "webp": "eva_timer.webp",
+        "png": "eva_timer.png",
+        "alt": "エヴァンゲリオンの活動限界を示すタイマー風のストップウォッチウェブサイトのスクリーンショット"
+      },
       "title": "EVA-TIMER",
       "sentence": {
         "text": "タイマーです。画像は一切用いず、CSS により作られています。",
@@ -93,7 +109,11 @@
       }
     },
     {
-      "media": { "webp": "voyage.webp", "png": "voyage.png" },
+      "media": {
+        "webp": "voyage.webp",
+        "png": "voyage.png",
+        "alt": "航海する船のアニメ調の画像。ウェブサイトのスクリーンショット"
+      },
       "title": "voyage",
       "sentence": {
         "text": "2018年 8月、VOYAGE GROUP という会社でインターンをしました。右上に終了日からの経過日数が表示されます。",
@@ -110,7 +130,11 @@
       }
     },
     {
-      "media": { "webp": "lsnl.webp", "png": "lsnl.png" },
+      "media": {
+        "webp": "lsnl.webp",
+        "png": "lsnl.png",
+        "alt": "ネットワーク研究室Webサイトのスクリーンショット"
+      },
       "title": "Network Architecture Laboratory",
       "sentence": {
         "text": "私が研究室で先生から教えてもらったことをまとめています。研究に関係することのみならず、生き方や考え方、議論のしかたまで多岐にわたります。",
@@ -123,7 +147,11 @@
       }
     },
     {
-      "media": { "webp": "dtnsim.webp", "jpg": "dtnsim.jpg" },
+      "media": {
+        "webp": "dtnsim.webp",
+        "jpg": "dtnsim.jpg",
+        "alt": "ネットワークシミュレータ"
+      },
       "title": "DTNシミュレータ",
       "sentence": {
         "text": "DTN(Delay/Disruption-Tolerant Networking)のシミュレータをJavaScriptにて実装しました。現在、エピデミックブロードキャストのみに対応しています。",
@@ -136,7 +164,11 @@
       }
     },
     {
-      "media": { "webp": "kaguya_world.webp", "jpg": "kaguya_world.jpg" },
+      "media": {
+        "webp": "kaguya_world.webp",
+        "jpg": "kaguya_world.jpg",
+        "alt": "簾を円形にし竹筒に見立てた中央に男性が正座している画像。男性は VR ゴーグルを被っている"
+      },
       "title": "光輝くかぐやの世界",
       "sentence": {
         "text": "国際学生対抗バーチャルリアリティコンテストにおいて選考を通過し、展示を行いました。かぐや姫の気持ちを体感できるVRゲームを作成しました。この開発はチームでの開発で行い、私はArduinoの制御プログラムを担当しました。",
@@ -153,7 +185,11 @@
       }
     },
     {
-      "media": { "webp": "CasAA.webp", "png": "CasAA.png" },
+      "media": {
+        "webp": "CasAA.webp",
+        "png": "CasAA.png",
+        "alt": "ツイキャスに投稿するテキストの編集画面。アプリケーションのスクリーンショット"
+      },
       "title": "CasAA",
       "sentence": {
         "text": "ツイキャスで定型文を送信するiPhoneアプリです。アスキーアート(AA)を投稿することを想定して作りました。",
@@ -166,7 +202,11 @@
       }
     },
     {
-      "media": { "webp": "TRPG_DICE.webp", "png": "TRPG_DICE.png" },
+      "media": {
+        "webp": "TRPG_DICE.webp",
+        "png": "TRPG_DICE.png",
+        "alt": "電卓風のボタン配置がされている乱数発生装置のスクリーンショット"
+      },
       "title": "TRPG DICE",
       "sentence": {
         "text": "TRPGでよく利用する 1D6 や 1D100 といった値を素早く出力ができるアプリです。初めて作ったiPhoneアプリです。",
@@ -181,7 +221,8 @@
     {
       "media": {
         "webp": "projection_mapping.webp",
-        "jpg": "projection_mapping.jpg"
+        "jpg": "projection_mapping.jpg",
+        "alt": "時計台を中央に、雪が降ってきている画像。アプリケーションのスクリーンショット"
       },
       "title": "プロジェクションマッピング",
       "sentence": {
@@ -195,7 +236,11 @@
       }
     },
     {
-      "media": { "webp": "pronama_time.webp", "jpg": "pronama_time.jpg" },
+      "media": {
+        "webp": "pronama_time.webp",
+        "jpg": "pronama_time.jpg",
+        "alt": "拡張機能をインストールしたブラウザの絵"
+      },
       "title": "プロ生ちゃんの時間！",
       "sentence": {
         "text": "Google Chromeの拡張機能です。プロ生ちゃんによる時報です。",
@@ -210,7 +255,8 @@
     {
       "media": {
         "webp": "virtual_science_fair.webp",
-        "png": "virtual_science_fair.png"
+        "png": "virtual_science_fair.png",
+        "alt": "数学コンテンツを紹介するウェブサイトのスクリーンショット"
       },
       "title": "Canada Wide Virtual Science Fair",
       "sentence": {
@@ -224,7 +270,11 @@
       }
     },
     {
-      "media": { "webp": "chocolategame.webp", "jpg": "chocolategame.jpg" },
+      "media": {
+        "webp": "chocolategame.webp",
+        "jpg": "chocolategame.jpg",
+        "alt": "チョコレート風のコンテンツが表示されたウェブサイトのスクリーンショット"
+      },
       "title": "全国中学高校Webコンテスト",
       "sentence": {
         "text": "全国中学高校Webコンテストへ提出した作品です。「ニム」というゲームの変種である、「チョコレートゲーム」というゲームについて紹介するウェブサイトです。コンテストでは、金賞を受賞しました。",
@@ -237,7 +287,11 @@
       }
     },
     {
-      "media": { "webp": "toranosuke.webp", "png": "toranosuke.png" },
+      "media": {
+        "webp": "toranosuke.webp",
+        "png": "toranosuke.png",
+        "alt": "翻訳ウェブサイトのスクリーンショット"
+      },
       "title": "とらのすけ - toranosuke",
       "sentence": {
         "text": "「複数の翻訳サイトで翻訳した結果を表示するウェブサイト」を作る予定でした。（製作中止）",
@@ -250,7 +304,11 @@
       }
     },
     {
-      "media": { "webp": "szm_corp.webp", "jpg": "szm_corp.jpg" },
+      "media": {
+        "webp": "szm_corp.webp",
+        "jpg": "szm_corp.jpg",
+        "alt": "稲の写真をサムネイルにしているウェブサイトのスクリーンショット"
+      },
       "title": "SZM株式会社",
       "sentence": {
         "text": "架空企業のウェブサイトです。",
