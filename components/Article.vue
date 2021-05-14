@@ -19,12 +19,12 @@
       <img
         v-if="media.jpg != null"
         v-lazy="getImgUrl(media.jpg)"
-        :alt="media.jpg"
+        :alt="media.alt"
       />
       <img
         v-else-if="media.png != null"
         v-lazy="getImgUrl(media.png)"
-        :alt="media.png"
+        :alt="media.alt"
       />
     </picture>
     <v-container fluid grid-list-lg>
