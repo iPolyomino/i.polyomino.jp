@@ -55,6 +55,13 @@ Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`A Study on Optimal Cache Provi
 
 #### 査読付き国際会議
 
+Masanori Fukui, Yuji Sasaki, Jo Hagikura, Yusuke Hayashi and Tsukasa Hirashima :
+Learning Effectiveness for Computational Thinking in a Simple Classification Task Using a Yes/No Chart Learning System Compared to a Visual Programming Learning System, Journal of Information and Technology in Education and Learning (ITEL), Vol.1, No.in print., 2021.
+
+Masanori Fukui, Yuji Sasaki, Jo Hagikura, Jun Moriyama and Tsukasa Hirashima :
+The Effect of Prior Programming Experience on the Use of Binary Tree Learning System for the Promotion of Computational Thinking,
+Solid State Technology, Vol.63, No.1s, 2020.
+
 Masanori Fukui, Jo Hagikura, Yuji Sasaki, Tsukasa Hirashima, Yoshifumi Yamashita, Masakatsu Kuroda, and Jun Moriyama, Development of a Block Programming Environment that Enables the Creation of Web Contents using HTML and JavaScript, The International Conference on Technology Education in the Asia-Pacific Region 2021 (ICTE 2021), accepted.
 
 Yuji Sasaki, Masanori Fukui, Jo Hagikura, Jun Moriyama, and Tsukasa Hirashima,
@@ -82,6 +89,8 @@ A Block Type Programming Environment Enabling Online Peer Assessment for Promoti
 http://icce2018.ateneo.edu/index.php/accepted-papers/
 
 #### 査読付き国内論文
+
+佐々木 雄司, 萩倉 丈, 福井 昌則, 小中学生向け統計学習のためのポータルサイト「キッズすたっと」, コンピュータ利用教育学会「コンピュータ&エデュケーション」, 51, 2021.12. accepted.
 
 福井 昌則, 佐々木 雄司, 萩倉 丈, 林 雄介, 平嶋 宗, Computational Thinking を育成する組み立て式ベン図・Yes/No チャート学習システム環境の設計・開発および評価, 人工知能学会論文誌, 35(6), pp.1--13, 2020.
 
