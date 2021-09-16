@@ -4,6 +4,7 @@
       <v-layout row wrap v-for="article in articles" :key="article.key">
         <v-flex xs12 v-if="article.title == error.statusCode">
           <word-component :title="article.title" :sentence="article.sentence" />
+          <sitemap-component />
         </v-flex>
       </v-layout>
     </v-flex>
@@ -12,6 +13,7 @@
 
 <script>
 import WordComponent from "~/components/Word.vue";
+import SitemapComponent from "~/components/Sitemap.vue";
 
 export default {
   props: ["error"],
@@ -21,21 +23,7 @@ export default {
         {
           title: "404",
           sentence: {
-            text: "ページが見つかりませんでした．",
-            links: [
-              {
-                name: "Index",
-                url: "/",
-              },
-              {
-                name: "About Me",
-                url: "/aboutme",
-              },
-              {
-                name: "Blog",
-                url: "/blog",
-              },
-            ],
+            text: "ページが見つかりませんでした。",
           },
         },
       ],
@@ -43,6 +31,7 @@ export default {
   },
   components: {
     WordComponent,
+    SitemapComponent,
   },
 };
 </script>
