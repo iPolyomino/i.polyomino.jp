@@ -4,7 +4,7 @@
     <v-container fluid grid-list-lg>
       <v-layout row wrap>
         <v-flex xs12>
-          <div class>
+          <div class="text-center">
             <div class="display-4">{{ title }}</div>
             <div>{{ sentence.text }}</div>
             <v-btn
