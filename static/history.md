@@ -25,6 +25,12 @@
 
 ### 情報指向ネットワーク
 
+萩倉 丈, 松尾涼太郎, 大崎 博之 \`\`疎な協調による多重ランダムウォークの効率化'' 電子情報通信学会技術研究報告 (IA2021-15) 1--5, 2021 電子情報通信学会
+
+萩倉 丈, 松尾涼太郎, 大崎 博之 \`\`疎な協調による多重ランダムウォークの効率化に関する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16-2) 189, 2021 電子情報通信学会
+
+河岸哲哉, 萩倉丈, 松尾涼太郎, 大崎博之 \`\`グラフ上の不可逆ランダムウォークにおける平均初回到着時間に関する一検討'' 電子情報通信学会 ソサイエティ大会 講演論文集 (B-16-4) 191, 2021 電子情報通信学会
+
 Jo HAGIKURA, and Hiroyuki OHSAKI \`\`A Study on Random-Walk-Based Content
 Routing in Information-Centric Delay/Disruption-Tolerant Networking'' IA2020 -
 Workshop on Internet Architecture and Applications 2020  
