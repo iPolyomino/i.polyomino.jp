@@ -285,44 +285,6 @@
           }
         ]
       }
-    },
-    {
-      "media": {
-        "webp": "toranosuke.webp",
-        "png": "toranosuke.png",
-        "alt": "翻訳ウェブサイトのスクリーンショット"
-      },
-      "title": "とらのすけ - toranosuke",
-      "sentence": {
-        "text": "「複数の翻訳サイトで翻訳した結果を表示するウェブサイト」を作る予定でした。（製作中止）",
-        "links": [
-          {
-            "name": "toranosuke",
-            "url": "https://toranosuke.polyomino.jp/"
-          }
-        ]
-      }
-    },
-    {
-      "media": {
-        "webp": "szm_corp.webp",
-        "jpg": "szm_corp.jpg",
-        "alt": "稲の写真をサムネイルにしているウェブサイトのスクリーンショット"
-      },
-      "title": "SZM株式会社",
-      "sentence": {
-        "text": "架空企業のウェブサイトです。",
-        "links": [
-          {
-            "name": "公式ウェブサイト",
-            "url": "https://szm.netlify.com"
-          },
-          {
-            "name": "ソースコード",
-            "url": "https://github.com/iPolyomino/szm-corp"
-          }
-        ]
-      }
     }
   ],
   "afterwords": [
