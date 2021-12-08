@@ -2,7 +2,7 @@
 
 ## 職歴、インターン歴など
 
-- 2021 年 4 月 ~ 12 月　関西学院高等部で「楽しい数学」という授業の非常勤講師をしています
+- 2021 年 4 月 ~ 12 月　関西学院高等部で「楽しい数学」という授業の非常勤講師をしました。
 - 2021 年 5 月 ~ 6 月 立命館大学で行われた「iPhone アプリ開発講座」の講師をしました。
 - 2021 年 4 月 個人事業主として、開業しました。
 - 2020 年 9 月 ~ 12 月　関西学院高等部で「楽しい数学」という授業の非常勤講師をしました。
@@ -23,7 +23,7 @@
 
 ## 研究
 
-### 情報指向ネットワーク
+### 大学、大学院
 
 萩倉 丈, 松尾涼太郎, 大崎 博之 \`\`疎な協調による多重ランダムウォークの効率化'' 電子情報通信学会技術研究報告 (IA2021-15) 1--5, 2021 電子情報通信学会
 
@@ -61,6 +61,10 @@ Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`A Study on Optimal Cache Provi
 ### プログラミング教育
 
 #### 査読付き国際会議
+
+Jo Hagikura, Yuji Sasaki and Masanori Fukui, Developing a Block Programming Environment to Create Web Game Contents using HTML and Javascript, 9th CoSMEd International Conference on Science and Mathematics Education, 2021
+
+Jo Hagikura, Yuji Sasaki, and Masanori Fukui, Development of a Block-Based Programming Environment That Enables to Create Web Game Pages About Random Numbers, IEEE 10th Global Conference on Consumer Electronics (GCCE 2021), accepted.
 
 Masanori Fukui, Yuji Sasaki, Jo Hagikura, Yusuke Hayashi and Tsukasa Hirashima :
 Learning Effectiveness for Computational Thinking in a Simple Classification Task Using a Yes/No Chart Learning System Compared to a Visual Programming Learning System, Journal of Information and Technology in Education and Learning (ITEL), Vol.1, No.in print., 2021.
