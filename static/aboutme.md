@@ -22,9 +22,9 @@ Currently, I'm studying large scale networking.
 
 # Membership of Academic Societies
 
-- 2020 - present, The Japan Society of Technology Education(JSTE). Member.
+- 2020 - 2021, The Japan Society of Technology Education(JSTE). Member.
 - 2019 - present, IEEE. Member.
-- 2019 - present, The Institute of Electronics, Information and Communication Engineers(IEICE). Member.
+- 2019 - 2022, The Institute of Electronics, Information and Communication Engineers(IEICE). Member.
 - 2016 - 2018, Information Processing Society of Japan(IPSJ). Junior Member.
 
 # My favorite programming languages
@@ -44,8 +44,8 @@ Currently, I'm studying large scale networking.
 
 # 資格など
 
-- 普通自動車運転免許
-- 乙種第 1,2,4,5,6 類危険物取扱者
+- 大型自動車運転免許
+- 乙種第 1,2,3,4,5,6 類危険物取扱者
 - 第二種電気工事士
 - 第 3 級アマチュア無線技士
 - 基本情報技術者
