@@ -50,7 +50,7 @@ Currently, I'm studying large scale networking.
 - 第 3 級アマチュア無線技士
 - 基本情報技術者
 - 英検 2 級
-- 学士(情報科学)
+- 修士(工学)
 
 # プリンシプル
 
