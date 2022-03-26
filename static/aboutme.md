@@ -67,7 +67,9 @@ Currently, I'm studying large scale networking.
 - バイトヒーロー.com というドメインを取得した話
   - [Twitter](https://twitter.com/iPolyomino/status/1265356177942048768)
   - ドメインネタが好き
-  - でんぱ組.inc というドメイン誰か取ってｗ
+  - 2022 年 3 月 26 日現在、空いているおすすめドメイン ↓
+    - でんぱ組.inc
+    - mihimaru .gt
 - 旅行先の北海道で地震にあって帰れなくなった話
   - 避難所での一泊は今でも記憶に残っている
 - 一回やめた社内システム開発のプログラミングバイトをもう一度始めた話
