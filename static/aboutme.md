@@ -8,8 +8,6 @@ I created a website and an iOS application to convey this fact to many people. I
 
 In the university, I was involved in the development of interactive projection mapping. Interactive projection mapping is the part of projection mapping in which the projected image changes by audience operation. I was made this application by using web technology. In this time, I encounter the problem of large scale networking. Communication by many people causes delays due to congestion. Then I get interested in large scale networking.
 
-Currently, I'm studying large scale networking.
-
 [GitHub](https://github.com/iPolyomino)
 [Twitter](https://twitter.com/iPolyomino)
 [LinkedIn](https://www.linkedin.com/in/joe-hagikura/)
@@ -47,7 +45,7 @@ Currently, I'm studying large scale networking.
 - 大型自動車運転免許
 - 乙種第 1,2,3,4,5,6 類危険物取扱者
 - 第二種電気工事士
-- 第 3 級アマチュア無線技士
+- 第三級アマチュア無線技士
 - 基本情報技術者
 - 英検 2 級
 - 修士(工学)
@@ -84,7 +82,3 @@ Currently, I'm studying large scale networking.
   - 鉄道、特に関西私鉄の話
   - 情報セキュリティ、物理セキュリティの話
   - ウェブサービスのアクセシビリティの話
-
-# 生きているうちにやりたいこと
-
-[生きてるうちにやりたいこと](https://esa-pages.io/p/sharing/8325/posts/358/6d1ec3375daaf572599f.html)
