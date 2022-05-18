@@ -26,9 +26,9 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
+    "@babel/core": "^7.17.12",
     "@babel/helper-define-map": "^7.16.7",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-env": "^7.17.12",
     "@nuxt/components": "^2.2.1",
     "@nuxtjs/vuetify": "^1.12.3",
     "babel-core": "^6.26.3",
