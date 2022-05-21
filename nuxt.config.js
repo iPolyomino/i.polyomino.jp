@@ -15,13 +15,7 @@ export default {
         content: "Hagi's portfolio website.",
       },
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons",
-      },
-    ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
   loading: { color: "#03A9F4" },
   css: ["~/assets/style/main.css"],
