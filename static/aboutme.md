@@ -82,3 +82,16 @@ In the university, I was involved in the development of interactive projection m
   - 鉄道、特に関西私鉄の話
   - 情報セキュリティ、物理セキュリティの話
   - ウェブサービスのアクセシビリティの話
+
+# パッと作ったツールたち
+
+- https://wsws.polyomino.jp/
+  - WebSocket の接続テストができるウェブサイト
+- https://gsi.polyomino.jp/
+  - 複数の種類の地図を同時に閲覧することができるウェブサイト
+- https://oz.polyomino.jp/
+  - 某アニメで出てきそうなログイン画面を CSS と HTML のみ（画像を一切使用せず）実装しました。
+- https://radio-wave.polyomino.jp/
+  - CSS アニメーションで波（電波）を表現しました。
+- https://toranosuke.polyomino.jp/
+  - 複数の翻訳ツールで翻訳した結果を表示できるようにしたかった…
