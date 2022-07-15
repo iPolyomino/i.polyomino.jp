@@ -63,6 +63,8 @@ Jo Hagikura, Ryo Nakamura and Hiroyuki Ohsaki \`\`A Study on Optimal Cache Provi
 
 #### 査読付き国際会議
 
+Masanori Fukui, Yuji Sasaki, Jo Hagikura, Jun Moriyama and Tsukasa Hirashima, A Study on the Relationship between Motivation for Gaming and Creativity in Students who Major in Video Games Development or Design, https://easychair.org/smart-program/DiGRA2022/2022-07-11.html
+
 Jo Hagikura, Yuji Sasaki and Masanori Fukui, Developing a Block Programming Environment to Create Web Game Contents using HTML and Javascript, 9th CoSMEd International Conference on Science and Mathematics Education, 2021
 
 Jo Hagikura, Yuji Sasaki, and Masanori Fukui, Development of a Block-Based Programming Environment That Enables to Create Web Game Pages About Random Numbers, IEEE 10th Global Conference on Consumer Electronics (GCCE 2021), accepted.
