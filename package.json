@@ -20,15 +20,15 @@
     "@nuxtjs/pwa": "^3.3.5",
     "nuxt": "^2.15.8",
     "processmd": "^4.6.3",
-    "vue": "^2.6.14",
+    "vue": "^2.7.8",
     "vue-lazyload": "^1.3.4",
-    "vue-template-compiler": "^2.6.14",
+    "vue-template-compiler": "^2.7.8",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.12",
-    "@babel/helper-define-map": "^7.16.7",
-    "@babel/preset-env": "^7.17.12",
+    "@babel/core": "^7.18.10",
+    "@babel/helper-define-map": "^7.18.6",
+    "@babel/preset-env": "^7.18.10",
     "@nuxt/components": "^2.2.1",
     "@nuxtjs/vuetify": "^1.12.3",
     "babel-core": "^6.26.3",
@@ -44,7 +44,7 @@
     "eslint-plugin-vue": "^7.20.0",
     "jest": "^27.5.1",
     "jsdom": "^19.0.0",
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.1",
     "vue-jest": "^3.0.7"
   }
 }
